@@ -1,0 +1,44 @@
+.About {
+    &-nav {
+        height: 100px;
+        width: 100%;
+        background-color: $nav-color;
+    }
+
+    &-logo {
+        height: 70px;
+        width: 109px;
+    }
+
+    &-list {
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        &-item {
+            display: flex;
+            width: 807px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-button {
+            height: 42px;
+            width: 135px;
+            border-radius: 21px;
+            font-size: 15px;
+            background-color: $button-color;
+            color: $white-color;
+        }
+    }
+
+    &-text {
+        color: $white-color;
+        margin: 15px;
+        cursor: pointer;
+        font-family: $nav-font;
+    }
+}
