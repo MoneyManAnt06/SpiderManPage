@@ -1,0 +1,27 @@
+{
+  "name": "smbs",
+  "version": "1.0.1",
+  "description": "Repo for apps and webs smbs made with HTML and CSS or SASS.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss -o css",
+    "server": "live-server --host=localhost --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloVelasquez/clone.git"
+  },
+  "keywords": [
+    "clone",
+    "webs",
+    "html",
+    "css"
+  ],
+  "author": "Marcelo Velasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloVelasquez/smbs/issues"
+  },
+  "homepage": "https://github.com/MarceloVelasquez/smbs#readme",
+  "dependencies": {}
+}
