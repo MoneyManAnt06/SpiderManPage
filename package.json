@@ -4,7 +4,7 @@
   "description": "Repo for apps and webs smbs made with HTML and CSS or SASS.",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass -w scss -o css",
+    "scss": "node-sass -w scss -o ./public/css",
     "server": "live-server --host=localhost --port=3000"
   },
   "repository": {
