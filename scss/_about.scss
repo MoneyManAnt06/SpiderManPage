@@ -41,4 +41,12 @@
         cursor: pointer;
         font-family: $nav-font;
     }
+
+    &-banner {
+        background-image: url();
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 498px;
+        background-size: cover;
+    }
 }
