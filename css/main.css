@@ -5,3 +5,48 @@ html {
 
 body {
   margin: 0; }
+
+ul {
+  margin: 0; }
+
+.About-nav {
+  height: 100px;
+  width: 100%;
+  background-color: #17202a; }
+
+.About-logo {
+  height: 70px;
+  width: 109px; }
+
+.About-list {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  list-style: none; }
+  .About-list-item {
+    display: flex;
+    width: 807px;
+    height: 100px;
+    justify-content: center;
+    align-items: center; }
+  .About-list-button {
+    height: 42px;
+    width: 135px;
+    border-radius: 21px;
+    font-size: 15px;
+    background-color: #884ea0;
+    color: #fdfefe; }
+
+.About-text {
+  color: #fdfefe;
+  margin: 15px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace; }
+
+.About-banner {
+  background-image: url();
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 498px;
+  background-size: cover; }
