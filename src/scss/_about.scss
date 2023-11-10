@@ -70,5 +70,35 @@
             height: 548px;
             background-size: cover;
         }
+
+        &-food {
+            background-color: $black-color;
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-text {
+                color: $yellow-color;
+                font-family: $food-font;
+                font-size: 33px;
+            }
+        }
+    }
+
+    &-box {
+        height: 726px;
+        width: 100%;
+        background-color: $cozy-green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-card {
+        width: 1012px;
+        height: 485px;
+        background-color: $button-color;
     }
 }
