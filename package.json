@@ -4,7 +4,7 @@
   "description": "Repo for apps and webs smbs made with HTML and CSS or SASS.",
   "main": "index.js",
   "scripts": {
-    "watch-scss": "node-sass --source-map ./src/assets/css --watch ./src/assets/scss -o ./src/assets/css",
+    "watch-scss": "node-sass --source-map ./public/css --watch ./src/scss -o ./public/css",
     "server": "live-server --host=localhost --port=3000",
     "start": "node index.js"
   },
