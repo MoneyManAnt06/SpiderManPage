@@ -33,6 +33,10 @@
             background-color: $button-color;
             color: $white-color;
         }
+
+        &-button:hover {
+            background-color: $button-dark;
+        }
     }
 
     &-text {
@@ -40,6 +44,10 @@
         margin: 15px;
         cursor: pointer;
         font-family: $nav-font;
+    }
+
+    &-text:hover {
+        color: $button-color;
     }
 
     &-banner {

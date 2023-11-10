@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game Page</title>
-    <link rel="stylesheet" href="/public/css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="NavBar">
-        <div class="NavBar-Image">
-          <img class="Marvel-Image" src="/Public/marvel.png" alt="Girl in a jacket" />
-        </div>
-        <ul class="NavBar-List">
-          <li class="NavBar-Text">HOME</li>
-          <li class="NavBar-Text">GAMES</li>
-          <li class="NavBar-Text">VIDEOS</li>
-          <li class="NavBar-Text">PAGES</li>
-        </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <title>Game Page</title>
+  <link rel="stylesheet" href="/public/css/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="NavBar">
+      <div class="NavBar-Image">
+        <img class="Marvel-Image" src="/Public/marvel.png" alt="Girl in a jacket" />
       </div>
-      <div class="Banner-container">
-        <div class="Banner-image-container">
-          <img class="Banner-image" src="./Public/ironMan.jpeg" alt="Italian Trulli" />
-        </div>
-        <div class="Banner-slogan">
-          <p class="banner-text">Find The Hero Within You</p>
-          <input class="button" type="button" value="Buy Now" onclick="msg()" />
-        </div>
+      <ul class="NavBar-List">
+        <li class="NavBar-Text">HOME</li>
+        <li class="NavBar-Text">GAMES</li>
+        <li class="NavBar-Text">VIDEOS</li>
+        <li class="NavBar-Text">PAGES</li>
+      </ul>
+    </div>
+    <div class="Banner-container">
+      <div class="Banner-image-container">
+        <img class="Banner-image" src="./Public/ironMan.jpeg" alt="Italian Trulli" />
+      </div>
+      <div class="Banner-slogan">
+        <p class="banner-text">Find The Hero Within You</p>
+        <input class="button" type="button" value="Buy Now" onclick="msg()" />
       </div>
     </div>
-    <section class="upcoming-games-and-movies">
-      <div class="boxContainer">
-        <h2>Upcoming Games</h2>
-        <h2>Upcoming Movies</h2>
-      </div>
-    </section>
-    <section class="subscribe-container">
-      <div>
-        <p>Subscribe To Our Newsletter</p>
-        <input type="email" placeholder="Enter email address" />
-      </div>
-    </section>
-    <script src="./index.js"></script>
-  </body>
+  </div>
+  <section class="upcoming-games-and-movies">
+    <div class="boxContainer">
+      <h2>Upcoming Games</h2>
+      <h2>Upcoming Movies</h2>
+    </div>
+  </section>
+  <section class="subscribe-container">
+    <div>
+      <p>Subscribe To Our Newsletter</p>
+      <input type="email" placeholder="Enter email address" />
+    </div>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
 </html>

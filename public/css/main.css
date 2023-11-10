@@ -37,12 +37,17 @@ ul {
     font-size: 15px;
     background-color: #884ea0;
     color: #fdfefe; }
+  .About-list-button:hover {
+    background-color: #4a235a; }
 
 .About-text {
   color: #fdfefe;
   margin: 15px;
   cursor: pointer;
   font-family: "Roboto Mono", monospace; }
+
+.About-text:hover {
+  color: #884ea0; }
 
 .About-banner {
   background-image: url();
