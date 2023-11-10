@@ -50,11 +50,21 @@ ul {
   color: #884ea0; }
 
 .About-banner {
-  background-image: url();
-  background-repeat: no-repeat;
+  height: 548px;
   width: 100%;
-  height: 498px;
-  background-size: cover; }
+  display: flex; }
+  .About-banner-first {
+    background-image: url(/public/img1.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 548px;
+    background-size: cover; }
+  .About-banner-second {
+    background-image: url(/public/img2.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 548px;
+    background-size: cover; }
 
 .NavBar {
   background-color: rgba(0, 0, 0, 0.4);
