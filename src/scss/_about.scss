@@ -55,20 +55,19 @@
         width: 100%;
         display: flex;
 
-        &-first {
-            background-image: url(/public/img1.jpg);
+        &-sides {
             background-repeat: no-repeat;
             width: 50%;
             height: 548px;
             background-size: cover;
         }
 
+        &-first {
+            background-image: url(/public/img1.jpg);
+        }
+
         &-second {
             background-image: url(/public/img2.jpg);
-            background-repeat: no-repeat;
-            width: 50%;
-            height: 548px;
-            background-size: cover;
         }
 
         &-food {
@@ -83,6 +82,7 @@
                 color: $yellow-color;
                 font-family: $food-font;
                 font-size: 33px;
+                text-shadow: 3px 3px 0 $red-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
             }
         }
     }
@@ -99,6 +99,46 @@
     &-card {
         width: 1012px;
         height: 485px;
-        background-color: $button-color;
+        display: flex;
+
+        &-left {
+            background-color: $black-color;
+            width: 50%;
+            height: 485px;
+            border: $white-color 5px dotted;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-right {
+            background-image: url(/public/img3.jpg);
+            border: $red-color 5px dotted;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50%;
+            height: 485px;
+        }
+
+        &-box {
+            width: 453px;
+            height: 392px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &-text {
+            color: $white-color;
+            font-size: 21px;
+        }
+
+        &-heading {
+            color: white;
+            font-family: $nav-font;
+            font-weight: 800;
+            font-size: 40px;
+        }
     }
 }
