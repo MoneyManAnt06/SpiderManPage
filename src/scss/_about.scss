@@ -1,8 +1,8 @@
 .About {
     &-nav {
+        background-color: $nav-color;
         height: 100px;
         width: 100%;
-        background-color: $nav-color;
     }
 
     &-logo {
@@ -11,27 +11,27 @@
     }
 
     &-list {
+        align-items: center;
         display: flex;
         height: 100px;
         justify-content: center;
-        align-items: center;
         list-style: none;
 
         &-item {
+            align-items: center;
             display: flex;
-            width: 807px;
             height: 100px;
             justify-content: center;
-            align-items: center;
+            width: 807px;
         }
 
         &-button {
+            background-color: $button-color;
+            border-radius: 21px;
+            color: $white-color;
+            font-size: 15px;
             height: 42px;
             width: 135px;
-            border-radius: 21px;
-            font-size: 15px;
-            background-color: $button-color;
-            color: $white-color;
         }
 
         &-button:hover {
@@ -41,9 +41,9 @@
 
     &-text {
         color: $white-color;
-        margin: 16px;
         cursor: pointer;
         font-family: $nav-font;
+        margin: 16px;
     }
 
     &-text:hover {
@@ -51,15 +51,15 @@
     }
 
     &-banner {
+        display: flex;
         height: 548px;
         width: 100%;
-        display: flex;
 
         &-sides {
             background-repeat: no-repeat;
-            width: 50%;
-            height: 548px;
             background-size: cover;
+            height: 548px;
+            width: 50%;
         }
 
         &-first {
@@ -71,12 +71,12 @@
         }
 
         &-food {
-            background-color: $black-color;
-            height: 100px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
             align-items: center;
+            background-color: $black-color;
+            display: flex;
+            height: 100px;
+            justify-content: center;
+            width: 100%;
 
             &-text {
                 color: $yellow-color;
@@ -88,45 +88,45 @@
     }
 
     &-box {
-        height: 726px;
-        width: 100%;
+        align-items: center;
         background-color: $cozy-green;
         display: flex;
-        align-items: center;
+        height: 726px;
         justify-content: center;
+        width: 100%;
     }
 
     &-card {
-        width: 1012px;
-        height: 485px;
         display: flex;
+        height: 485px;
+        width: 1012px;
 
         &-left {
+            align-items: center;
             background-color: $black-color;
-            width: 50%;
-            height: 485px;
             border: $white-color 5px dotted;
             display: flex;
+            height: 485px;
             justify-content: center;
-            align-items: center;
+            width: 50%;
         }
 
         &-right {
             background-image: url(/public/img3.jpg);
-            border: $red-color 5px dotted;
             background-repeat: no-repeat;
             background-size: cover;
-            width: 50%;
+            border: $red-color 5px dotted;
             height: 485px;
+            width: 50%;
         }
 
         &-box {
-            width: 453px;
-            height: 392px;
             display: flex;
-            flex-wrap: nowrap;
             flex-direction: column;
+            flex-wrap: nowrap;
+            height: 392px;
             justify-content: center;
+            width: 453px;
         }
 
         &-text {
@@ -137,8 +137,18 @@
         &-heading {
             color: white;
             font-family: $nav-font;
-            font-weight: 800;
             font-size: 40px;
+            font-weight: 800;
         }
+    }
+
+    &-testimonials {
+        height: 510px;
+        width: 100%;
+        border-top: $black-color 10px double;
+        border-bottom: $black-color 10px double;
+        background-image: url(/public/img4.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
