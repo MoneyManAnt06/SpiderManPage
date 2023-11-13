@@ -130,6 +130,20 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.slider {
+  position: relative;
+  width: 300px;
+  overflow: hidden; }
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease; }
+
+.slide {
+  flex: 0 0 100%;
+  padding: 20px;
+  text-align: center; }
+
 .NavBar {
   background-color: rgba(0, 0, 0, 0.4);
   height: 90px;

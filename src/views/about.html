@@ -74,8 +74,49 @@
         </div>
     </section>
     <section class="About-testimonials">
-
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <h2>Título 1</h2>
+                    <p>Texto 1</p>
+                </div>
+                <div class="slide">
+                    <h2>Título 2</h2>
+                    <p>Texto 2</p>
+                </div>
+                <div class="slide">
+                    <h2>Título 3</h2>
+                    <p>Texto 3</p>
+                </div>
+            </div>
+        </div>
     </section>
+    <script>
+
+        const slides = document.querySelectorAll('.slide');
+        const slider = document.querySelector('.slides');
+        let currentSlide = 0;
+        const slideWidth = slides[0].clientWidth;
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            if (currentSlide === 0) {
+                slider.style.transition = 'transform 0.5s ease';
+                slider.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+                setTimeout(() => {
+                    slider.style.transition = 'none';
+                    slider.style.transform = `translateX(0)`;
+                    setTimeout(() => {
+                        slider.style.transition = 'transform 0.5s ease';
+                    }, 50);
+                }, 550);
+            } else {
+                slider.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+            }
+        }
+
+        setInterval(nextSlide, 2000);
+    </script>
 </body>
 
 </html>
