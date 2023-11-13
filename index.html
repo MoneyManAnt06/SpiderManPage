@@ -1,83 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game Page</title>
-    <link rel="stylesheet" href="/public/css/styles.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="NavBar">
-        <div class="NavBar-Image">
-          <img class="Marvel-Image" src="/Public/marvel.png" alt="Girl in a jacket" />
-        </div>
-        <ul class="NavBar-List">
-          <li class="NavBar-Text">HOME</li>
-          <li class="NavBar-Text">GAMES</li>
-          <li class="NavBar-Text">VIDEOS</li>
-          <li class="NavBar-Text">PAGES</li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Page</title>
+  <link rel="stylesheet" href="/public/css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="NavBar">
+      <div class="NavBar-Image">
+        <img class="Marvel-Image" src="/Public/marvel.png" alt="Marvel Logo" />
       </div>
-      <div class="Banner-container">
-        <div class="Banner-image-container">
-          <img class="Banner-image" src="./Public/ironMan.jpeg" alt="Italian Trulli" />
-        </div>
-        <div class="Banner-slogan">
-          <p class="banner-text">Find The Hero Within You</p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos totam quas saepe alias
-            deleniti optio quasi, culpa nostrum fuga aliquid sed possimus minus facilis.
-          </p>
-          <input class="button" type="button" value="Buy Now" onclick="msg()" />
-        </div>
-      </div>
+      <ul class="NavBar-List">
+        <li class="About-text">HOME</li>
+
+        <li class="About-text">ABOUT</li>
+        <li class="About-text">GALLERY</li>
+        <li class="About-text">COMICS</li>
+        <li class="About-text">BLOG</li>
+        <li class="About-text">CONTACT</li>
+      </ul>
     </div>
-    <section>
-      <div>
-        <h4>ABOUT US</h4>
-        <p>We Believe that Interior beauty Lasts Long</p>
+    <div class="Banner-container">
+      <div class="Banner-image-container">
+        <img class="Banner-image" src="./Public/IRONMAN.png" alt="Iron Man" />
+      </div>
+      <div class="Banner-slogan">
+        <p class="banner-text">Find The Hero Within You</p>
         <p>
-          inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-          especially in the workplace. That's why it's crucial that as women.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos totam quas saepe alias
+          deleniti optio quasi, culpa nostrum fuga aliquid sed possimus minus facilis.
         </p>
         <input class="button" type="button" value="Buy Now" onclick="msg()" />
       </div>
-    </section>
-    <section class="upcoming-games-and-movies">
-      <div class="boxContainer">
-        <h2>Latest Games</h2>
-        <div class="upcoming-games-container">
-          <div class="upcoming-games">
-            <div class="upcoming-game-title">
-              <h3>The Wolverine</h3>
-            </div>
-          </div>
-          <div class="upcoming-games">
-            <div class="upcoming-game-title">
-              <h3>Marvel's Spider-Man 2</h3>
-            </div>
-          </div>
-          <div class="upcoming-games">
-            <div class="upcoming-game-title">
-              <h3>Marvel's Midnight Suns</h3>
-            </div>
-          </div>
-          <div class="upcoming-games">
-            <div class="upcoming-game-title">
-              <h3>MARVEL SNAP</h3>
-            </div>
+    </div>
+  </div>
+
+  <section class="Section-aboutUs">
+    <div class="AboutUs-content">
+      <div class="AboutUs-text">
+        <h4>ABOUT US</h4>
+        <p>MARVEL CORPORATE INFORMATION</p>
+        <p>
+          Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most prominent character-based entertainment companies, built on a proven library of more than 8,000 characters featured in a variety of media over seventy-five years. Marvel utilizes its character franchises in entertainment, licensing and publishing.
+        </p>
+        <input class="button" type="button" value="Buy Now" onclick="msg()" />
+      </div>
+      <div class="AboutUs-image">
+        <img class="Marvel-Image" src="/Public/marvelChar2.jpeg" alt="Marvel Logo" />
+      </div>
+    </div>
+  </section>
+
+  <section class="Section-latest-games">
+    <div class="boxContainer">
+      <h2>Latest Games</h2>
+      <div class="Upcoming-games-container">
+        <div class="Upcoming-games">
+          <img class="Upcoming-games-image" src="/public/wolverine cover.jpeg" alt="">
+          <div >
+            <h3 class="Upcoming-games-title">The Wolverine</h3>
           </div>
         </div>
-        <h2>Upcoming Movies</h2>
+        <div class="Upcoming-games">
+          <div >
+            <img class="Upcoming-games-image" src="/public/spiderMan2-cover.jpeg" alt="">
+            <h3 class="Upcoming-games-title">Marvel's Spider-Man 2</h3>
+          </div>
+        </div>
+        <div class="Upcoming-games">
+          <div >
+            <img class="Upcoming-games-image" src="/public/marvelsmidnightsuns-cover.jpeg" alt="">
+            <h3 class="Upcoming-games-title">Marvel's Midnight Suns</h3>
+          </div>
+        </div>
+        <div class="Upcoming-games">
+          <div >
+            <img class="Upcoming-games-image" src="/public/marvelsnap-cover.png" alt="">
+            <h3 class="Upcoming-games-title">MARVEL SNAP</h3>
+          </div>
+        </div>
       </div>
-    </section>
-    <section class="subscribe-container">
-      <div>
-        <p>Subscribe To Our Newsletter</p>
-        <input type="email" placeholder="Enter email address" />
-      </div>
-    </section>
-    <script src="./index.js"></script>
-  </body>
+    </div>
+  </section>
+  <section class="subscribe-container">
+    <div>
+      <p>Subscribe To Our Newsletter</p>
+      <input type="email" placeholder="Enter email address" />
+    </div>
+  </section>
+  <script src="./index.js"></script>
+</body>
 </html>

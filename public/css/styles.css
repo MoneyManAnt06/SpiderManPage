@@ -7,6 +7,7 @@ body {
 .container {
   background-image: url(/Public/coolBackground.avif);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Marvel-Image {
@@ -43,7 +44,6 @@ body {
   font-weight: 700;
   align-items: center;
   flex-direction: column;
-  background-color: black;
 }
 
 .banner-text {
