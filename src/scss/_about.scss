@@ -1,104 +1,53 @@
 .About {
-    &-nav {
-        height: 100px;
+    &-testimonials {
+        height: 510px;
         width: 100%;
-        background-color: $nav-color;
-    }
-
-    &-logo {
-        height: 70px;
-        width: 109px;
-    }
-
-    &-list {
+        border-top: $black-color 10px double;
+        border-bottom: $black-color 10px double;
+        background-image: url(/public/img4.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
-        height: 100px;
         justify-content: center;
-        align-items: center;
-        list-style: none;
+        align-items: baseline;
 
-        &-item {
+        &-slider {
+            position: relative;
+            width: 500px;
+            overflow: hidden;
+        }
+
+        &-slides {
             display: flex;
-            width: 807px;
-            height: 100px;
-            justify-content: center;
             align-items: center;
         }
 
-        &-button {
-            height: 42px;
-            width: 135px;
-            border-radius: 21px;
-            font-size: 15px;
-            background-color: $button-color;
+        &-slide {
+            flex: 0 0 100%;
+            text-align: center;
+            padding-right: 64px;
+            padding-top: 85px;
+        }
+
+        &-paragraph {
+            margin-left: 60px;
+            margin-right: 60px;
             color: $white-color;
+            font-size: 20px;
+            font-weight: 600;
         }
 
-        &-button:hover {
-            background-color: $button-dark;
-        }
-    }
-
-    &-text {
-        color: $white-color;
-        margin: 16px;
-        cursor: pointer;
-        font-family: $nav-font;
-    }
-
-    &-text:hover {
-        color: $button-color;
-    }
-
-    &-banner {
-        height: 548px;
-        width: 100%;
-        display: flex;
-
-        &-first {
-            background-image: url(/public/img1.jpg);
-            background-repeat: no-repeat;
-            width: 50%;
-            height: 548px;
-            background-size: cover;
+        &-title {
+            color: $white-color;
+            font-size: 40px;
         }
 
-        &-second {
-            background-image: url(/public/img2.jpg);
-            background-repeat: no-repeat;
-            width: 50%;
-            height: 548px;
-            background-size: cover;
+        &-img {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #555;
+            transform: rotate(-45deg) skew(-7deg, -7deg);
+            margin-bottom: 31px;
         }
-
-        &-food {
-            background-color: $black-color;
-            height: 100px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            &-text {
-                color: $yellow-color;
-                font-family: $food-font;
-                font-size: 33px;
-            }
-        }
-    }
-
-    &-box {
-        height: 726px;
-        width: 100%;
-        background-color: $cozy-green;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    &-card {
-        width: 1012px;
-        height: 485px;
-        background-color: $button-color;
     }
 }
