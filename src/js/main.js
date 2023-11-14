@@ -1,5 +1,5 @@
-const slides = document.querySelectorAll(".slide");
-const slider = document.querySelector(".slides");
+const slides = document.querySelectorAll(".About-testimonials-slide");
+const slider = document.querySelector(".About-testimonials-slides");
 let currentSlide = 0;
 const slideWidth = slides[0].clientWidth;
 
