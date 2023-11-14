@@ -16,12 +16,12 @@
     max-width: 100%;
     width: 100%;
     display: flex;
-    background-color: #1c1c1c;
+    background-color: $home-darkgrey;
   }
 
   &-text {
     width: 50%;
-    color: white;
+    color: $home-white;
   }
 
   &-image {
