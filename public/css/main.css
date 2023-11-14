@@ -1,16 +1,20 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 ul {
-  margin: 0; }
+  margin: 0;
+}
 
 h1 {
-  margin: 0; }
+  margin: 0;
+}
 
 .About-testimonials {
   height: 510px;
@@ -22,127 +26,217 @@ h1 {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: baseline; }
-  .About-testimonials-slider {
-    position: relative;
-    width: 500px;
-    overflow: hidden; }
-  .About-testimonials-slides {
-    display: flex;
-    align-items: center; }
-  .About-testimonials-slide {
-    flex: 0 0 100%;
-    text-align: center;
-    padding-right: 64px;
-    padding-left: 64px;
-    padding-top: 85px; }
-  .About-testimonials-paragraph {
-    margin-left: 60px;
-    margin-right: 60px;
-    color: #fdfefe;
-    font-size: 20px;
-    font-weight: 600; }
-  .About-testimonials-title {
-    color: #fdfefe;
-    font-size: 40px; }
-  .About-testimonials-img {
-    width: 150px;
-    height: 150px;
-    border: 3px solid #555;
-    transform: rotate(-45deg) skew(-7deg, -7deg);
-    margin-bottom: 31px; }
+  align-items: baseline;
+}
+
+.About-testimonials-slider {
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+}
+
+.About-testimonials-slides {
+  display: flex;
+  align-items: center;
+}
+
+.About-testimonials-slide {
+  flex: 0 0 100%;
+  text-align: center;
+  padding-right: 64px;
+  padding-left: 64px;
+  padding-top: 85px;
+}
+
+.About-testimonials-paragraph {
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #fdfefe;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.About-testimonials-title {
+  color: #fdfefe;
+  font-size: 40px;
+}
+
+.About-testimonials-img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #555;
+  transform: rotate(-45deg) skew(-7deg, -7deg);
+  margin-bottom: 31px;
+}
+
+.Section-aboutUs {
+  padding-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+}
+
+.Section-latest-games {
+  padding: 120px 0 80px;
+}
+
+.AboutUs-content {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #1c1c1c;
+}
+
+.AboutUs-text {
+  width: 50%;
+  color: white;
+}
+
+.AboutUs-image {
+  width: 50%;
+}
+
+.Upcoming-games-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Upcoming-games {
+  width: 255px;
+  height: 339px;
+  padding: 15px;
+}
+
+.Upcoming-games-image {
+  border-radius: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+.Upcoming-games-title {
+  text-align: center;
+}
 
 .Header-nav {
   background-color: #17202a;
   height: 100px;
-  width: 100%; }
+  width: 100%;
+}
 
 .Header-logo {
   height: 70px;
-  width: 109px; }
+  width: 109px;
+}
 
 .Header-list {
   align-items: center;
   display: flex;
   height: 100px;
   justify-content: center;
-  list-style: none; }
-  .Header-list-item {
-    align-items: center;
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    width: 807px; }
-  .Header-list-button {
-    background-color: #884ea0;
-    border-radius: 21px;
-    color: #fdfefe;
-    font-size: 15px;
-    height: 42px;
-    width: 135px; }
-  .Header-list-button:hover {
-    background-color: #4a235a; }
+  list-style: none;
+}
+
+.Header-list-item {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 807px;
+}
+
+.Header-list-button {
+  background-color: #884ea0;
+  border-radius: 21px;
+  color: #fdfefe;
+  font-size: 15px;
+  height: 42px;
+  width: 135px;
+}
+
+.Header-list-button:hover {
+  background-color: #4a235a;
+}
 
 .Header-text {
   color: #fdfefe;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
-  margin: 16px; }
+  margin: 16px;
+}
 
 .Header-text:hover {
-  color: #884ea0; }
+  color: #884ea0;
+}
 
 .NavBar {
   background-color: rgba(0, 0, 0, 0.4);
   height: 90px;
   display: flex;
-  align-items: center; }
-  .NavBar-Image {
-    width: 200px;
-    height: 100%; }
-  .NavBar-List {
-    display: flex;
-    list-style: none;
-    color: white;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600; }
+  align-items: center;
+}
+
+.NavBar-Image {
+  width: 200px;
+  height: 100%;
+}
+
+.NavBar-List {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
 
 .Marvel-Image {
   width: 100%;
   height: 100%;
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 .NavBar-Text:hover {
-  color: red; }
+  color: red;
+}
 
 .Banner {
   display: flex;
   height: 548px;
-  width: 100%; }
-  .Banner-sides {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 548px;
-    width: 50%; }
-  .Banner-first {
-    background-image: url(/public/img1.jpg); }
-  .Banner-second {
-    background-image: url(/public/img2.jpg); }
-  .Banner-food {
-    align-items: center;
-    background-color: #000000;
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    width: 100%; }
-    .Banner-food-text {
-      color: #f4d03f;
-      font-family: "Permanent Marker", cursive;
-      font-size: 33px;
-      text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
+  width: 100%;
+}
+
+.Banner-sides {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 548px;
+  width: 50%;
+}
+
+.Banner-first {
+  background-image: url(/public/img1.jpg);
+}
+
+.Banner-second {
+  background-image: url(/public/img2.jpg);
+}
+
+.Banner-food {
+  align-items: center;
+  background-color: #000000;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+}
+
+.Banner-food-text {
+  color: #f4d03f;
+  font-family: "Permanent Marker", cursive;
+  font-size: 33px;
+  text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded;
+}
 
 .AboutUs-box {
   align-items: center;
@@ -150,41 +244,53 @@ h1 {
   display: flex;
   height: 726px;
   justify-content: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .AboutUs-card {
   display: flex;
   height: 485px;
-  width: 1012px; }
-  .AboutUs-card-left {
-    align-items: center;
-    background-color: #000000;
-    border: #fdfefe 5px dotted;
-    display: flex;
-    height: 485px;
-    justify-content: center;
-    width: 50%; }
-  .AboutUs-card-right {
-    background-image: url(/public/img3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: #c0392b 5px dotted;
-    height: 485px;
-    width: 50%; }
-  .AboutUs-card-box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 392px;
-    justify-content: center;
-    width: 453px; }
-  .AboutUs-card-text {
-    color: #fdfefe;
-    font-size: 21px; }
-  .AboutUs-card-heading {
-    color: white;
-    font-family: "Roboto Mono", monospace;
-    font-size: 40px;
-    font-weight: 800; }
+  width: 1012px;
+}
+
+.AboutUs-card-left {
+  align-items: center;
+  background-color: #000000;
+  border: #fdfefe 5px dotted;
+  display: flex;
+  height: 485px;
+  justify-content: center;
+  width: 50%;
+}
+
+.AboutUs-card-right {
+  background-image: url(/public/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: #c0392b 5px dotted;
+  height: 485px;
+  width: 50%;
+}
+
+.AboutUs-card-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 392px;
+  justify-content: center;
+  width: 453px;
+}
+
+.AboutUs-card-text {
+  color: #fdfefe;
+  font-size: 21px;
+}
+
+.AboutUs-card-heading {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  font-weight: 800;
+}
 
 /*# sourceMappingURL=main.css.map */
