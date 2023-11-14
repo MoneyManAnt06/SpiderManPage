@@ -9,6 +9,9 @@ body {
 ul {
   margin: 0; }
 
+h1 {
+  margin: 0; }
+
 .About-nav {
   height: 100px;
   width: 100%;
@@ -37,19 +40,95 @@ ul {
     font-size: 15px;
     background-color: #884ea0;
     color: #fdfefe; }
+  .About-list-button:hover {
+    background-color: #4a235a; }
 
 .About-text {
   color: #fdfefe;
-  margin: 15px;
+  margin: 16px;
   cursor: pointer;
   font-family: "Roboto Mono", monospace; }
 
+.About-text:hover {
+  color: #884ea0; }
+
 .About-banner {
-  background-image: url();
-  background-repeat: no-repeat;
+  height: 548px;
   width: 100%;
-  height: 498px;
-  background-size: cover; }
+  display: flex; }
+  .About-banner-first {
+    background-image: url(/public/img1.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 548px;
+    background-size: cover; }
+  .About-banner-second {
+    background-image: url(/public/img2.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 548px;
+    background-size: cover; }
+  .About-banner-food {
+    background-color: #000000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .About-banner-food-text {
+      color: #f4d03f;
+      font-family: "Permanent Marker", cursive;
+      font-size: 33px; }
+
+.About-box {
+  height: 726px;
+  width: 100%;
+  background-color: #eaeded;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.About-card {
+  width: 1012px;
+  height: 485px;
+  background-color: #884ea0; }
+
+.Section-aboutUs {
+  padding-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px; }
+
+.Section-latest-games {
+  padding: 120px 0 80px; }
+
+.AboutUs-content {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #1c1c1c; }
+
+.AboutUs-text {
+  width: 50%;
+  color: white; }
+
+.AboutUs-image {
+  width: 50%; }
+
+.Upcoming-games-container {
+  display: flex;
+  justify-content: center; }
+
+.Upcoming-games {
+  width: 255px;
+  height: 339px;
+  padding: 15px; }
+  .Upcoming-games-image {
+    border-radius: 200px;
+    width: 100%;
+    height: 100%; }
+  .Upcoming-games-title {
+    text-align: center; }
 
 .NavBar {
   background-color: rgba(0, 0, 0, 0.4);
