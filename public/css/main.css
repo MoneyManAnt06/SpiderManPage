@@ -12,49 +12,6 @@ ul {
 h1 {
   margin: 0; }
 
-.About-box {
-  align-items: center;
-  background-color: #eaeded;
-  display: flex;
-  height: 726px;
-  justify-content: center;
-  width: 100%; }
-
-.About-card {
-  display: flex;
-  height: 485px;
-  width: 1012px; }
-  .About-card-left {
-    align-items: center;
-    background-color: #000000;
-    border: #fdfefe 5px dotted;
-    display: flex;
-    height: 485px;
-    justify-content: center;
-    width: 50%; }
-  .About-card-right {
-    background-image: url(/public/img3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: #c0392b 5px dotted;
-    height: 485px;
-    width: 50%; }
-  .About-card-box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 392px;
-    justify-content: center;
-    width: 453px; }
-  .About-card-text {
-    color: #fdfefe;
-    font-size: 21px; }
-  .About-card-heading {
-    color: white;
-    font-family: "Roboto Mono", monospace;
-    font-size: 40px;
-    font-weight: 800; }
-
 .About-testimonials {
   height: 510px;
   width: 100%;
@@ -172,5 +129,48 @@ h1 {
       font-family: "Permanent Marker", cursive;
       font-size: 33px;
       text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
+
+.AboutUs-box {
+  align-items: center;
+  background-color: #eaeded;
+  display: flex;
+  height: 726px;
+  justify-content: center;
+  width: 100%; }
+
+.AboutUs-card {
+  display: flex;
+  height: 485px;
+  width: 1012px; }
+  .AboutUs-card-left {
+    align-items: center;
+    background-color: #000000;
+    border: #fdfefe 5px dotted;
+    display: flex;
+    height: 485px;
+    justify-content: center;
+    width: 50%; }
+  .AboutUs-card-right {
+    background-image: url(/public/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #c0392b 5px dotted;
+    height: 485px;
+    width: 50%; }
+  .AboutUs-card-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 392px;
+    justify-content: center;
+    width: 453px; }
+  .AboutUs-card-text {
+    color: #fdfefe;
+    font-size: 21px; }
+  .AboutUs-card-heading {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 40px;
+    font-weight: 800; }
 
 /*# sourceMappingURL=main.css.map */
