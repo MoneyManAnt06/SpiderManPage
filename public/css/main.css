@@ -12,32 +12,6 @@ ul {
 h1 {
   margin: 0; }
 
-.About-banner {
-  display: flex;
-  height: 548px;
-  width: 100%; }
-  .About-banner-sides {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 548px;
-    width: 50%; }
-  .About-banner-first {
-    background-image: url(/public/img1.jpg); }
-  .About-banner-second {
-    background-image: url(/public/img2.jpg); }
-  .About-banner-food {
-    align-items: center;
-    background-color: #000000;
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    width: 100%; }
-    .About-banner-food-text {
-      color: #f4d03f;
-      font-family: "Permanent Marker", cursive;
-      font-size: 33px;
-      text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
-
 .About-box {
   align-items: center;
   background-color: #eaeded;
@@ -172,5 +146,31 @@ h1 {
 
 .NavBar-Text:hover {
   color: red; }
+
+.Banner {
+  display: flex;
+  height: 548px;
+  width: 100%; }
+  .Banner-sides {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 548px;
+    width: 50%; }
+  .Banner-first {
+    background-image: url(/public/img1.jpg); }
+  .Banner-second {
+    background-image: url(/public/img2.jpg); }
+  .Banner-food {
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 100%; }
+    .Banner-food-text {
+      color: #f4d03f;
+      font-family: "Permanent Marker", cursive;
+      font-size: 33px;
+      text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
 
 /*# sourceMappingURL=main.css.map */
