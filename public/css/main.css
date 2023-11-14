@@ -82,6 +82,9 @@ h2 {
     .About-review-container-box {
       width: 568px;
       height: 163px; }
+    .About-review-container-text {
+      color: #884ea0;
+      font-size: 25px; }
 
 .About-border-up {
   border-top: #000000 2px dotted; }
