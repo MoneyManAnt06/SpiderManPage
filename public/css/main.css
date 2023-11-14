@@ -12,46 +12,6 @@ ul {
 h1 {
   margin: 0; }
 
-.About-nav {
-  background-color: #17202a;
-  height: 100px;
-  width: 100%; }
-
-.About-logo {
-  height: 70px;
-  width: 109px; }
-
-.About-list {
-  align-items: center;
-  display: flex;
-  height: 100px;
-  justify-content: center;
-  list-style: none; }
-  .About-list-item {
-    align-items: center;
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    width: 807px; }
-  .About-list-button {
-    background-color: #884ea0;
-    border-radius: 21px;
-    color: #fdfefe;
-    font-size: 15px;
-    height: 42px;
-    width: 135px; }
-  .About-list-button:hover {
-    background-color: #4a235a; }
-
-.About-text {
-  color: #fdfefe;
-  cursor: pointer;
-  font-family: "Roboto Mono", monospace;
-  margin: 16px; }
-
-.About-text:hover {
-  color: #884ea0; }
-
 .About-banner {
   display: flex;
   height: 548px;
@@ -146,6 +106,46 @@ h1 {
   flex: 0 0 100%;
   padding: 20px;
   text-align: center; }
+
+.Header-nav {
+  background-color: #17202a;
+  height: 100px;
+  width: 100%; }
+
+.Header-logo {
+  height: 70px;
+  width: 109px; }
+
+.Header-list {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  list-style: none; }
+  .Header-list-item {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 807px; }
+  .Header-list-button {
+    background-color: #884ea0;
+    border-radius: 21px;
+    color: #fdfefe;
+    font-size: 15px;
+    height: 42px;
+    width: 135px; }
+  .Header-list-button:hover {
+    background-color: #4a235a; }
+
+.Header-text {
+  color: #fdfefe;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  margin: 16px; }
+
+.Header-text:hover {
+  color: #884ea0; }
 
 .NavBar {
   background-color: rgba(0, 0, 0, 0.4);
