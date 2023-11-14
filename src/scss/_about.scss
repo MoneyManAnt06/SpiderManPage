@@ -50,4 +50,58 @@
             margin-bottom: 31px;
         }
     }
+
+    &-review {
+        width: 100%;
+        height: 947px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-head {
+            width: 1137px;
+            height: 143px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-text {
+                color: $yellow-color;
+                font-family: $food-font;
+                font-size: 40px;
+                text-shadow: 3px 3px 0 $red-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
+            }
+        }
+
+        &-container {
+            height: 713px;
+            width: 1137px;
+
+            &-row {
+                display: flex;
+                width: 1137px;
+                height: 163px;
+            }
+
+            &-box {
+                width: 568px;
+                height: 163px;
+            }
+        }
+    }
+
+    &-border {
+        &-up {
+            border-top: $black-color 2px dotted;
+        }
+
+        &-down {
+            border-bottom: $black-color 2px dotted;
+        }
+
+        &-right {
+            border-right: $black-color 2px dotted;
+        }
+    }
 }

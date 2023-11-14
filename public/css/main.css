@@ -12,6 +12,9 @@ ul {
 h1 {
   margin: 0; }
 
+h2 {
+  margin: 0; }
+
 .About-testimonials {
   height: 510px;
   width: 100%;
@@ -50,6 +53,44 @@ h1 {
     border: 3px solid #555;
     transform: rotate(-45deg) skew(-7deg, -7deg);
     margin-bottom: 31px; }
+
+.About-review {
+  width: 100%;
+  height: 947px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .About-review-head {
+    width: 1137px;
+    height: 143px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .About-review-head-text {
+      color: #f4d03f;
+      font-family: "Permanent Marker", cursive;
+      font-size: 40px;
+      text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
+  .About-review-container {
+    height: 713px;
+    width: 1137px; }
+    .About-review-container-row {
+      display: flex;
+      width: 1137px;
+      height: 163px; }
+    .About-review-container-box {
+      width: 568px;
+      height: 163px; }
+
+.About-border-up {
+  border-top: #000000 2px dotted; }
+
+.About-border-down {
+  border-bottom: #000000 2px dotted; }
+
+.About-border-right {
+  border-right: #000000 2px dotted; }
 
 .Section-aboutUs {
   padding-top: 120px;
