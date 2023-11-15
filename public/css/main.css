@@ -268,9 +268,8 @@ p {
       gap: 10px;
       height: 100%;
       justify-content: center;
-      width: 600px; }
+      width: 100%; }
     .Footer-right-img {
-      background-color: antiquewhite;
       border: #fdfefe 2px double;
       height: 189px;
       width: 190px; }
