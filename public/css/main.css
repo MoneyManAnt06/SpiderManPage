@@ -105,6 +105,7 @@ p {
   display: flex;
   height: 205px;
   justify-content: center;
+  margin-bottom: 161px;
   width: 100%; }
   .About-subscribe-box {
     display: flex;
@@ -241,28 +242,85 @@ p {
 .Header-text:hover {
   color: #884ea0; }
 
-.NavBar {
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 90px;
+.Footer {
+  align-items: center;
+  background-color: black;
   display: flex;
-  align-items: center; }
-  .NavBar-Image {
-    width: 200px;
-    height: 100%; }
-  .NavBar-List {
+  height: 540px;
+  justify-content: center;
+  width: 100%; }
+  .Footer-box {
     display: flex;
-    list-style: none;
+    flex-wrap: nowrap;
+    height: 74%;
+    width: 90%; }
+  .Footer-right {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 50%; }
+    .Footer-right-box {
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      gap: 10px;
+      height: 100%;
+      justify-content: center;
+      width: 600px; }
+    .Footer-right-img {
+      background-color: antiquewhite;
+      border: #fdfefe 2px double;
+      height: 189px;
+      width: 190px; }
+  .Footer-left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 50%; }
+    .Footer-left-list {
+      align-items: center;
+      border-bottom: #85929e 2px solid;
+      display: flex;
+      height: 100px;
+      justify-content: space-between;
+      width: 100%; }
+    .Footer-left-item {
+      color: #fdfefe;
+      cursor: pointer;
+      font-family: "Roboto Mono", monospace;
+      list-style: none;
+      margin: 16px; }
+    .Footer-left-item:hover {
+      color: #f4d03f; }
+    .Footer-left-gif {
+      height: 65%;
+      width: 100%; }
+
+.NavBar {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  height: 90px; }
+  .NavBar-Image {
+    height: 100%;
+    width: 200px; }
+  .NavBar-List {
     color: white;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 20px;
+    display: flex;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600; }
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%; }
 
 .Marvel-Image {
-  width: 100%;
   height: 100%;
-  margin-left: 20px; }
+  margin-left: 20px;
+  width: 100%; }
 
 .NavBar-Text:hover {
   color: red; }
