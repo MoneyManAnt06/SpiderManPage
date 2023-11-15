@@ -19,57 +19,57 @@ p {
   margin: 0; }
 
 .About-testimonials {
-  height: 510px;
-  width: 100%;
-  border-top: #000000 10px double;
-  border-bottom: #000000 10px double;
+  align-items: baseline;
   background-image: url(/public/img4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: black 10px double;
+  border-top: black 10px double;
   display: flex;
+  height: 510px;
   justify-content: center;
-  align-items: baseline; }
+  width: 100%; }
   .About-testimonials-slider {
+    overflow: hidden;
     position: relative;
-    width: 500px;
-    overflow: hidden; }
+    width: 500px; }
   .About-testimonials-slides {
-    display: flex;
-    align-items: center; }
+    align-items: center;
+    display: flex; }
   .About-testimonials-slide {
     flex: 0 0 100%;
-    text-align: center;
     padding-right: 64px;
-    padding-top: 85px; }
+    padding-top: 85px;
+    text-align: center; }
   .About-testimonials-paragraph {
-    margin-left: 60px;
-    margin-right: 60px;
     color: #fdfefe;
     font-size: 20px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-left: 60px;
+    margin-right: 60px; }
   .About-testimonials-title {
     color: #fdfefe;
     font-size: 40px; }
   .About-testimonials-img {
-    width: 150px;
-    height: 150px;
     border: 3px solid #555;
+    height: 150px;
+    margin-bottom: 60px;
     transform: rotate(-45deg) skew(-7deg, -7deg);
-    margin-bottom: 31px; }
+    width: 150px; }
 
 .About-review {
-  width: 100%;
-  height: 947px;
+  align-items: center;
   display: flex;
+  height: 947px;
   justify-content: center;
-  align-items: center; }
+  width: 100%; }
   .About-review-head {
-    width: 1137px;
-    height: 143px;
-    margin-bottom: 30px;
+    align-items: center;
     display: flex;
+    height: 143px;
     justify-content: center;
-    align-items: center; }
+    margin-bottom: 30px;
+    width: 1137px; }
     .About-review-head-text {
       color: #f4d03f;
       font-family: "Permanent Marker", cursive;
@@ -80,24 +80,80 @@ p {
     width: 1137px; }
     .About-review-container-row {
       display: flex;
-      width: 1137px;
-      height: 163px; }
+      height: 163px;
+      width: 1137px; }
     .About-review-container-box {
-      width: 568px;
-      height: 163px; }
+      height: 163px;
+      width: 568px; }
     .About-review-container-text {
       color: #884ea0;
       font-size: 25px;
       margin-left: 25px;
       margin-top: 25px; }
     .About-review-container-paragraph {
-      font-weight: 400;
+      color: #85929e;
       font-size: 14px;
+      font-weight: 400;
       line-height: 20px;
-      width: 526px;
-      margin-top: 10px;
       margin-left: 25px;
-      color: #85929e; }
+      margin-top: 10px;
+      width: 526px; }
+
+.About-subscribe {
+  align-items: center;
+  background: linear-gradient(to right, black 0%, #c0392b 100%);
+  display: flex;
+  height: 205px;
+  justify-content: center;
+  width: 100%; }
+  .About-subscribe-box {
+    display: flex;
+    height: 80px;
+    width: 1505px; }
+  .About-subscribe-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+    width: 50%; }
+    .About-subscribe-title-text {
+      align-items: center;
+      color: #fdfefe;
+      font-family: "Rajdhani", sans-serif;
+      font-size: 23px;
+      font-weight: 600; }
+    .About-subscribe-title-paragraph {
+      color: #fdfefe; }
+  .About-subscribe-email {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 50%; }
+  .About-subscribe-input {
+    border: transparent;
+    border-radius: 50px;
+    height: 22px;
+    line-height: inherit;
+    outline: none;
+    padding: 13px 30px;
+    width: 50%; }
+  .About-subscribe-button {
+    background-color: #85929e;
+    border: transparent;
+    border-radius: 21px;
+    color: #fdfefe;
+    cursor: pointer;
+    font-size: 15px;
+    font-size: 18px;
+    height: 42px;
+    position: absolute;
+    right: 362px;
+    width: 135px; }
+  .About-subscribe-button:hover {
+    background-color: #515e69; }
 
 .About-border-up {
   border-top: #85929e 2px dotted; }
@@ -226,7 +282,7 @@ p {
     background-image: url(/public/img2.jpg); }
   .Banner-food {
     align-items: center;
-    background-color: #000000;
+    background-color: black;
     display: flex;
     height: 100px;
     justify-content: center;
@@ -251,7 +307,7 @@ p {
   width: 1012px; }
   .AboutUs-card-left {
     align-items: center;
-    background-color: #000000;
+    background-color: black;
     border: #fdfefe 5px dotted;
     display: flex;
     height: 485px;
@@ -279,6 +335,6 @@ p {
     font-family: "Roboto Mono", monospace;
     font-size: 40px;
     font-weight: 800;
-    margin: 25px; }
+    margin-bottom: 25px; }
 
 /*# sourceMappingURL=main.css.map */
