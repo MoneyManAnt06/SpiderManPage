@@ -92,21 +92,33 @@
             &-text {
                 color: $button-color;
                 font-size: 25px;
+                margin-left: 25px;
+                margin-top: 25px;
+            }
+
+            &-paragraph {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                width: 526px;
+                margin-top: 10px;
+                margin-left: 25px;
+                color: $cozy-green;
             }
         }
     }
 
     &-border {
         &-up {
-            border-top: $black-color 2px dotted;
+            border-top: $cozy-green 2px dotted;
         }
 
         &-down {
-            border-bottom: $black-color 2px dotted;
+            border-bottom: $cozy-green 2px dotted;
         }
 
         &-right {
-            border-right: $black-color 2px dotted;
+            border-right: $cozy-green 2px dotted;
         }
     }
 }
