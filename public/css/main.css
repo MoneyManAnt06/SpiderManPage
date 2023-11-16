@@ -51,7 +51,7 @@ p {
     color: #fdfefe;
     font-size: 40px; }
   .About-testimonials-img {
-    border: 3px solid #555;
+    border: 3px solid #515e69;
     height: 150px;
     margin-bottom: 60px;
     transform: rotate(-45deg) skew(-7deg, -7deg);
@@ -237,7 +237,8 @@ p {
   color: #fdfefe;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
-  margin: 16px; }
+  margin: 16px;
+  text-decoration: none; }
 
 .Header-text:hover {
   color: #884ea0; }
@@ -291,7 +292,8 @@ p {
       cursor: pointer;
       font-family: "Roboto Mono", monospace;
       list-style: none;
-      margin: 16px; }
+      margin: 16px;
+      text-decoration: none; }
     .Footer-left-item:hover {
       color: #f4d03f; }
     .Footer-left-gif {
