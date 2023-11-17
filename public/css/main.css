@@ -9,47 +9,164 @@ body {
 ul {
   margin: 0; }
 
+li {
+  list-style: none; }
+
 h1 {
   margin: 0; }
 
+h2, h3 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
 .About-testimonials {
-  height: 510px;
-  width: 100%;
-  border-top: #000000 10px double;
-  border-bottom: #000000 10px double;
+  align-items: baseline;
   background-image: url(/public/img4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: black 10px double;
+  border-top: black 10px double;
   display: flex;
+  height: 510px;
   justify-content: center;
-  align-items: baseline; }
+  width: 100%; }
   .About-testimonials-slider {
+    overflow: hidden;
     position: relative;
-    width: 500px;
-    overflow: hidden; }
+    width: 500px; }
   .About-testimonials-slides {
-    display: flex;
-    align-items: center; }
+    align-items: center;
+    display: flex; }
   .About-testimonials-slide {
     flex: 0 0 100%;
-    text-align: center;
     padding-right: 64px;
-    padding-top: 85px; }
+    padding-top: 85px;
+    text-align: center; }
   .About-testimonials-paragraph {
-    margin-left: 60px;
-    margin-right: 60px;
     color: #fdfefe;
     font-size: 20px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-left: 60px;
+    margin-right: 60px; }
   .About-testimonials-title {
     color: #fdfefe;
     font-size: 40px; }
   .About-testimonials-img {
-    width: 150px;
+    border: 3px solid #515e69;
     height: 150px;
-    border: 3px solid #555;
+    margin-bottom: 60px;
     transform: rotate(-45deg) skew(-7deg, -7deg);
-    margin-bottom: 31px; }
+    width: 150px; }
+
+.About-review {
+  align-items: center;
+  display: flex;
+  height: 947px;
+  justify-content: center;
+  width: 100%; }
+  .About-review-head {
+    align-items: center;
+    display: flex;
+    height: 143px;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 1137px; }
+    .About-review-head-text {
+      color: #f4d03f;
+      font-family: "Permanent Marker", cursive;
+      font-size: 40px;
+      text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #17202a, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
+  .About-review-container {
+    height: 713px;
+    width: 1137px; }
+    .About-review-container-row {
+      display: flex;
+      height: 163px;
+      width: 1137px; }
+    .About-review-container-box {
+      height: 163px;
+      width: 568px; }
+    .About-review-container-text {
+      color: #884ea0;
+      font-size: 25px;
+      margin-left: 25px;
+      margin-top: 25px; }
+    .About-review-container-paragraph {
+      color: #85929e;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-left: 25px;
+      margin-top: 10px;
+      width: 526px; }
+
+.About-subscribe {
+  align-items: center;
+  background: linear-gradient(to right, black 0%, #c0392b 100%);
+  display: flex;
+  height: 205px;
+  justify-content: center;
+  margin-bottom: 161px;
+  width: 100%; }
+  .About-subscribe-box {
+    display: flex;
+    height: 80px;
+    width: 1505px; }
+  .About-subscribe-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+    width: 50%; }
+    .About-subscribe-title-text {
+      align-items: center;
+      color: #fdfefe;
+      font-family: "Rajdhani", sans-serif;
+      font-size: 23px;
+      font-weight: 600; }
+    .About-subscribe-title-paragraph {
+      color: #fdfefe; }
+  .About-subscribe-email {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 50%; }
+  .About-subscribe-input {
+    border: transparent;
+    border-radius: 50px;
+    height: 22px;
+    line-height: inherit;
+    outline: none;
+    padding: 13px 30px;
+    width: 50%; }
+  .About-subscribe-button {
+    background-color: #85929e;
+    border: transparent;
+    border-radius: 21px;
+    color: #fdfefe;
+    cursor: pointer;
+    font-size: 15px;
+    font-size: 18px;
+    height: 42px;
+    position: absolute;
+    right: 362px;
+    width: 135px; }
+  .About-subscribe-button:hover {
+    background-color: #515e69; }
+
+.About-border-up {
+  border-top: #85929e 2px dotted; }
+
+.About-border-down {
+  border-bottom: #85929e 2px dotted; }
+
+.About-border-right {
+  border-right: #85929e 2px dotted; }
 
 .Section-aboutUs {
   padding-top: 120px;
@@ -123,33 +240,91 @@ h1 {
   color: #fdfefe;
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
-  margin: 16px; }
+  margin: 16px;
+  text-decoration: none; }
 
 .Header-text:hover {
   color: #884ea0; }
 
-.NavBar {
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 90px;
+.Footer {
+  align-items: center;
+  background-color: black;
   display: flex;
-  align-items: center; }
-  .NavBar-Image {
-    width: 200px;
-    height: 100%; }
-  .NavBar-List {
+  height: 540px;
+  justify-content: center;
+  width: 100%; }
+  .Footer-box {
     display: flex;
-    list-style: none;
+    flex-wrap: nowrap;
+    height: 74%;
+    width: 90%; }
+  .Footer-right {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 50%; }
+    .Footer-right-box {
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      gap: 10px;
+      height: 100%;
+      justify-content: center;
+      width: 100%; }
+    .Footer-right-img {
+      border: #fdfefe 2px double;
+      height: 189px;
+      width: 190px; }
+  .Footer-left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 50%; }
+    .Footer-left-list {
+      align-items: center;
+      border-bottom: #85929e 2px solid;
+      display: flex;
+      height: 100px;
+      justify-content: space-between;
+      width: 100%; }
+    .Footer-left-item {
+      color: #fdfefe;
+      cursor: pointer;
+      font-family: "Roboto Mono", monospace;
+      list-style: none;
+      margin: 16px;
+      text-decoration: none; }
+    .Footer-left-item:hover {
+      color: #f4d03f; }
+    .Footer-left-gif {
+      height: 65%;
+      width: 100%; }
+
+.NavBar {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  height: 90px; }
+  .NavBar-Image {
+    height: 100%;
+    width: 200px; }
+  .NavBar-List {
     color: white;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 20px;
+    display: flex;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600; }
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%; }
 
 .Marvel-Image {
-  width: 100%;
   height: 100%;
-  margin-left: 20px; }
+  margin-left: 20px;
+  width: 100%; }
 
 .NavBar-Text:hover {
   color: red; }
@@ -169,7 +344,7 @@ h1 {
     background-image: url(/public/img2.jpg); }
   .Banner-food {
     align-items: center;
-    background-color: #000000;
+    background-color: black;
     display: flex;
     height: 100px;
     justify-content: center;
@@ -194,7 +369,7 @@ h1 {
   width: 1012px; }
   .AboutUs-card-left {
     align-items: center;
-    background-color: #000000;
+    background-color: black;
     border: #fdfefe 5px dotted;
     display: flex;
     height: 485px;
@@ -221,6 +396,7 @@ h1 {
     color: white;
     font-family: "Roboto Mono", monospace;
     font-size: 40px;
-    font-weight: 800; }
+    font-weight: 800;
+    margin-bottom: 25px; }
 
 /*# sourceMappingURL=main.css.map */
