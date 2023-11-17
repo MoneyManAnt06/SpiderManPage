@@ -169,23 +169,23 @@ p {
   border-right: #85929e 2px dotted; }
 
 .Section-aboutUs {
-  padding-top: 120px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 120px;
   width: 1440px; }
 
 .Section-latest-games {
   padding: 120px 0 80px; }
 
 .AboutUs-content {
-  max-width: 100%;
-  width: 100%;
+  background-color: #1c1c1c;
   display: flex;
-  background-color: #1c1c1c; }
+  max-width: 100%;
+  width: 100%; }
 
 .AboutUs-text {
-  width: 50%;
-  color: white; }
+  color: white;
+  width: 50%; }
 
 .AboutUs-image {
   width: 50%; }
@@ -195,13 +195,13 @@ p {
   justify-content: center; }
 
 .Upcoming-games {
-  width: 255px;
   height: 339px;
-  padding: 15px; }
+  padding: 15px;
+  width: 255px; }
   .Upcoming-games-image {
     border-radius: 200px;
-    width: 100%;
-    height: 100%; }
+    height: 100%;
+    width: 100%; }
   .Upcoming-games-title {
     text-align: center; }
 
