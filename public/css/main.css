@@ -224,8 +224,25 @@ p {
     margin-top: 79px; }
     .Map-info-data {
       width: 286px;
+      display: flex;
       height: 214px;
-      background-color: black; }
+      background-color: black;
+      flex-direction: column;
+      justify-content: space-around; }
+      .Map-info-data-box {
+        display: flex;
+        background-color: red; }
+      .Map-info-data-item {
+        display: flex;
+        flex-direction: column; }
+    .Map-info-icon {
+      height: 50px;
+      width: 50px;
+      background-color: aliceblue; }
+    .Map-info-title {
+      color: #fdfefe; }
+    .Map-info-paragraph {
+      color: #fdfefe; }
     .Map-info-inputs {
       width: 853px;
       height: 214px;

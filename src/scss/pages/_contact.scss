@@ -21,8 +21,35 @@
 
         &-data {
             width: 286px;
+            display: flex;
             height: 214px;
             background-color: black;
+            flex-direction: column;
+            justify-content: space-around;
+
+            &-box {
+                display: flex;
+                background-color: red;
+            }
+
+            &-item {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        &-icon {
+            height: 50px;
+            width: 50px;
+            background-color: aliceblue;
+        }
+
+        &-title {
+            color: $white-color;
+        }
+
+        &-paragraph {
+            color: $white-color;
         }
 
         &-inputs {
