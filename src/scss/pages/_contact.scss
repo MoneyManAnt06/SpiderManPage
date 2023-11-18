@@ -81,10 +81,10 @@
 
             &-input {
                 background-clip: padding-box;
-                background-color: #fff;
-                border: 1px solid #ced4da;
+                background-color: $home-white;
+                border: 1px solid $cozy-green-lite;
                 border-radius: 0.25rem;
-                color: #495057;
+                color: $cozy-green-lite-darkes;
                 font-family: "Roboto", sans-serif;
                 font-size: 14px;
                 height: 21px;
@@ -95,9 +95,9 @@
             }
 
             &-message {
-                border: 1px solid #ced4da;
+                border: 1px solid $cozy-green;
                 border-radius: 0.25rem;
-                color: #495057;
+                color: $cozy-green-lite-darkes;
                 font-family: "Roboto", sans-serif;
                 font-size: 14px;
                 height: 123px;
