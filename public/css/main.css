@@ -7,7 +7,11 @@ body {
   margin: 0; }
 
 ul {
-  margin: 0; }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 li {
   list-style: none; }
@@ -312,6 +316,81 @@ p {
       width: 169px; }
     .Map-info-form-button:hover {
       background-color: #85929e; }
+
+.Pricing-plans {
+  width: 100%;
+  height: 878px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.Pricing-container {
+  width: 1110px;
+  background-color: aqua; }
+
+.Pricing-title {
+  width: 1110px;
+  align-items: center;
+  margin-bottom: 85px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 100;
+  color: #884ea0; }
+
+.Pricing-box {
+  display: flex;
+  justify-content: space-evenly; }
+
+.Pricing-card {
+  width: 348px;
+  height: 495px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .Pricing-card-title {
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    background-color: red;
+    height: 80px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .Pricing-card-price {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #342b7e;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; }
+  .Pricing-card-text {
+    width: 100%;
+    padding: 14px;
+    display: flex;
+    justify-content: center; }
+  .Pricing-card-order {
+    margin-top: 36px;
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+  .Pricing-card-button {
+    width: 200px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    background-color: #342b7e;
+    align-items: center;
+    border-radius: 13px; }
 
 .Header-nav {
   background-color: #17202a;

@@ -1,0 +1,91 @@
+.Pricing {
+    &-plans {
+        width: 100%;
+        height: 878px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-container {
+        width: 1110px;
+        background-color: aqua;
+    }
+
+    &-title {
+        width: 1110px;
+        align-items: center;
+        margin-bottom: 85px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 100;
+        color: $button-color;
+    }
+
+    &-box {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &-card {
+        width: 348px;
+        height: 495px;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            font-size: 18px;
+            color: #fff;
+            width: 100%;
+            background-color: red;
+            height: 80px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-price {
+            font-weight: bold;
+            color: #fff;
+            margin: 0;
+            display: flex;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100px;
+            background-color: #342b7e;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        &-text {
+            width: 100%;
+            padding: 14px;
+            display: flex;
+            justify-content: center;
+        }
+
+        &-order {
+            margin-top: 36px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        &-button {
+            width: 200px;
+            height: 49px;
+            display: flex;
+            justify-content: center;
+            background-color: #342b7e;
+            align-items: center;
+            border-radius: 13px;
+        }
+    }
+}
