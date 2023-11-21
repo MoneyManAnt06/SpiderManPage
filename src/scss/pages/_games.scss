@@ -68,13 +68,14 @@
     }
 
     &-tab {
-        width: 100%;
-        height: 798px;
-        background-color: red;
+        align-items: center;
+        background-image: url("/public/img-cover.jpg");
         display: flex;
         flex-direction: column;
+        height: 798px;
         justify-content: center;
-        align-items: center;
+        width: 100%;
+        background-size: cover;
 
         &-container {
             width: 1110px;
@@ -85,20 +86,49 @@
         }
 
         &-box {
+            align-items: center;
             display: flex;
-            align-items: flex-start;
-            width: 50%;
-            flex-wrap: nowrap;
             flex-direction: column;
+            flex-wrap: nowrap;
             justify-content: center;
+            width: 50%;
 
             &-inside {
-                height: 100%;
+                align-content: center;
+                align-items: flex-start;
                 display: flex;
-                width: 100%;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                height: 420px;
+                justify-content: space-evenly;
+                width: 420px;
+            }
+
+            &-text {
+                color: $yellow-color;
+                font-family: $food-font;
+                font-size: 33px;
+                text-shadow: 3px 3px 0 $red-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
+            }
+
+            &-paragraph {
+                font-size: 20px;
+            }
+
+            &-button {
+                background: -webkit-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+                background: -moz-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+                background: -o-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+                background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+                color: $white-color;
+                height: 53px;
+                width: 154px;
+            }
+
+            &-button:hover {
+                background: -webkit-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                background: -moz-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                background: -o-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                background: linear-gradient(90deg, $red-dark 0%, $black-color 100%);
             }
         }
 
@@ -106,8 +136,8 @@
             width: 50%;
 
             &-size {
-                width: 100%;
-                height: 100%;
+                height: 546px;
+                width: 541px;
             }
         }
     }
