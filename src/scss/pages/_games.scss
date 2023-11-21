@@ -30,6 +30,7 @@
             height: 386px;
             justify-content: center;
             width: 285px;
+            position: relative;
         }
 
         &-image {
@@ -46,7 +47,7 @@
             justify-content: center;
             position: absolute;
             text-align: center;
-            top: 241%;
+            top: 45%;
             transform: translateY(-50%);
             -moz-transition: all 0.4s ease 0s;
             -o-transition: all 0.4s ease 0s;
