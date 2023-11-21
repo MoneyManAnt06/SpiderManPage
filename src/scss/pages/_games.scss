@@ -56,6 +56,10 @@
             opacity: 4;
         }
 
+        &-text:hover {
+            background: $opacity-lite;
+        }
+
         &-anchor {
             color: $white-color;
             font-size: 18px;

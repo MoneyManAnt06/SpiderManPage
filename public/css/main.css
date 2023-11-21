@@ -440,6 +440,8 @@ p {
     transition: all 0.4s ease 0s;
     width: 253px;
     opacity: 4; }
+  .Games-gallery-text:hover {
+    background: rgba(184, 87, 184, 0.5); }
   .Games-gallery-anchor {
     color: #fdfefe;
     font-size: 18px;
