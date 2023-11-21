@@ -8,10 +8,7 @@ body {
 
 ul {
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  padding: 0; }
 
 li {
   list-style: none; }
@@ -318,79 +315,86 @@ p {
       background-color: #85929e; }
 
 .Pricing-plans {
-  width: 100%;
-  height: 878px;
+  align-items: center;
   display: flex;
+  height: 878px;
   justify-content: center;
-  align-items: center; }
+  width: 100%; }
 
 .Pricing-container {
-  width: 1110px;
-  background-color: aqua; }
+  width: 1110px; }
 
 .Pricing-title {
-  width: 1110px;
   align-items: center;
-  margin-bottom: 85px;
+  color: #884ea0;
   display: flex;
-  justify-content: center;
-  font-size: 30px;
   font-family: "Rajdhani", sans-serif;
+  font-size: 30px;
   font-weight: 100;
-  color: #884ea0; }
+  justify-content: center;
+  margin-bottom: 85px;
+  width: 1110px; }
 
 .Pricing-box {
   display: flex;
   justify-content: space-evenly; }
 
 .Pricing-card {
-  width: 348px;
-  height: 495px;
-  background-color: aliceblue;
+  align-items: center;
+  background: linear-gradient(to right, #943126 0%, #c0392b 51%, #943126 100%);
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  height: 495px;
+  width: 348px; }
   .Pricing-card-title {
+    align-items: center;
+    color: #fdfefe;
+    display: flex;
     font-size: 18px;
-    color: #fff;
-    width: 100%;
-    background-color: red;
     height: 80px;
-    margin: 0;
-    display: flex;
     justify-content: center;
-    align-items: center; }
+    margin: 0;
+    width: 100%; }
   .Pricing-card-price {
+    align-items: center;
+    background-color: black;
+    color: #fdfefe;
+    display: flex;
+    display: flex;
     font-weight: bold;
-    color: #fff;
-    margin: 0;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    width: 100%;
     height: 100px;
-    background-color: #342b7e;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 40px; }
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 40px;
+    width: 100%; }
+    .Pricing-card-price-list {
+      align-items: center;
+      display: flex;
+      flex-direction: column; }
   .Pricing-card-text {
-    width: 100%;
-    padding: 14px;
-    display: flex;
-    justify-content: center; }
-  .Pricing-card-order {
-    margin-top: 36px;
-    display: flex;
-    width: 100%;
-    justify-content: center; }
-  .Pricing-card-button {
-    width: 200px;
-    height: 49px;
+    color: #fdfefe;
     display: flex;
     justify-content: center;
-    background-color: #342b7e;
+    padding: 14px;
+    width: 100%; }
+  .Pricing-card-order {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    width: 100%; }
+  .Pricing-card-button {
     align-items: center;
-    border-radius: 13px; }
+    background-color: black;
+    border-radius: 13px;
+    color: #fdfefe;
+    display: flex;
+    height: 49px;
+    justify-content: center;
+    text-decoration: none;
+    width: 200px; }
+  .Pricing-card-button:hover {
+    border: 2px solid #fdfefe; }
 
 .Header-nav {
   background-color: #17202a;

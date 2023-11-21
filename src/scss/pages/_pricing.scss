@@ -1,27 +1,26 @@
 .Pricing {
     &-plans {
-        width: 100%;
-        height: 878px;
-        display: flex;
-        justify-content: center;
         align-items: center;
+        display: flex;
+        height: 878px;
+        justify-content: center;
+        width: 100%;
     }
 
     &-container {
         width: 1110px;
-        background-color: aqua;
     }
 
     &-title {
-        width: 1110px;
         align-items: center;
-        margin-bottom: 85px;
-        display: flex;
-        justify-content: center;
-        font-size: 30px;
-        font-family: "Rajdhani", sans-serif;
-        font-weight: 100;
         color: $button-color;
+        display: flex;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        justify-content: center;
+        margin-bottom: 85px;
+        width: 1110px;
     }
 
     &-box {
@@ -30,62 +29,74 @@
     }
 
     &-card {
-        width: 348px;
-        height: 495px;
-        background-color: aliceblue;
+        align-items: center;
+        background: linear-gradient(to right, $red-dark 0%, $red-color 51%, $red-dark 100%);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        height: 495px;
+        width: 348px;
 
         &-title {
-            font-size: 18px;
-            color: #fff;
-            width: 100%;
-            background-color: red;
-            height: 80px;
-            margin: 0;
-            display: flex;
-            justify-content: center;
             align-items: center;
+            color: $white-color;
+            display: flex;
+            font-size: 18px;
+            height: 80px;
+            justify-content: center;
+            margin: 0;
+            width: 100%;
         }
 
         &-price {
-            font-weight: bold;
-            color: #fff;
-            margin: 0;
-            display: flex;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            height: 100px;
-            background-color: #342b7e;
-            justify-content: center;
             align-items: center;
+            background-color: $black-color;
+            color: $white-color;
+            display: flex;
+            display: flex;
+            font-weight: bold;
+            height: 100px;
+            justify-content: center;
+            justify-content: center;
+            margin: 0;
             margin-bottom: 40px;
+            width: 100%;
+
+            &-list {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
         }
 
         &-text {
-            width: 100%;
-            padding: 14px;
+            color: $white-color;
             display: flex;
             justify-content: center;
+            padding: 14px;
+            width: 100%;
         }
 
         &-order {
-            margin-top: 36px;
             display: flex;
-            width: 100%;
             justify-content: center;
+            margin-top: 36px;
+            width: 100%;
         }
 
         &-button {
-            width: 200px;
-            height: 49px;
-            display: flex;
-            justify-content: center;
-            background-color: #342b7e;
             align-items: center;
+            background-color: $black-color;
             border-radius: 13px;
+            color: $white-color;
+            display: flex;
+            height: 49px;
+            justify-content: center;
+            text-decoration: none;
+            width: 200px;
+        }
+
+        &-button:hover {
+            border: 2px solid $white-color;
         }
     }
 }
