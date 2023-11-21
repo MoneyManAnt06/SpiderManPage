@@ -1,0 +1,64 @@
+.Games {
+    &-gallery {
+        align-items: center;
+        display: flex;
+        height: 723px;
+        justify-content: center;
+        width: 100%;
+
+        &-container {
+            height: 530px;
+            width: 1140px;
+        }
+
+        &-box {
+            display: flex;
+            height: 385px;
+        }
+
+        &-title {
+            color: $button-color;
+            display: flex;
+            font-size: 25px;
+            height: 144px;
+            justify-content: center;
+            width: 100%;
+        }
+
+        &-card {
+            display: flex;
+            height: 386px;
+            justify-content: center;
+            width: 285px;
+        }
+
+        &-image {
+            border-radius: 125px;
+            height: 340px;
+            width: 253px;
+        }
+
+        &-text {
+            align-items: center;
+            background: $opacity;
+            display: flex;
+            height: 61px;
+            justify-content: center;
+            position: absolute;
+            text-align: center;
+            top: 241%;
+            transform: translateY(-50%);
+            -moz-transition: all 0.4s ease 0s;
+            -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+            width: 253px;
+            opacity: 4;
+        }
+
+        &-anchor {
+            color: $white-color;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+}

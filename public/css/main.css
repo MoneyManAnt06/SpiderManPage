@@ -396,6 +396,54 @@ p {
   .Pricing-card-button:hover {
     border: 2px solid #fdfefe; }
 
+.Games-gallery {
+  align-items: center;
+  display: flex;
+  height: 723px;
+  justify-content: center;
+  width: 100%; }
+  .Games-gallery-container {
+    height: 530px;
+    width: 1140px; }
+  .Games-gallery-box {
+    display: flex;
+    height: 385px; }
+  .Games-gallery-title {
+    color: #884ea0;
+    display: flex;
+    font-size: 25px;
+    height: 144px;
+    justify-content: center;
+    width: 100%; }
+  .Games-gallery-card {
+    display: flex;
+    height: 386px;
+    justify-content: center;
+    width: 285px; }
+  .Games-gallery-image {
+    border-radius: 125px;
+    height: 340px;
+    width: 253px; }
+  .Games-gallery-text {
+    align-items: center;
+    background: rgba(128, 0, 128, 0.5);
+    display: flex;
+    height: 61px;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 241%;
+    transform: translateY(-50%);
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 253px;
+    opacity: 4; }
+  .Games-gallery-anchor {
+    color: #fdfefe;
+    font-size: 18px;
+    text-decoration: none; }
+
 .Header-nav {
   background-color: #17202a;
   height: 100px;
