@@ -469,12 +469,11 @@ p {
     justify-content: center;
     width: 50%; }
     .Games-tab-box-inside {
-      align-content: center;
       align-items: flex-start;
       display: flex;
       flex-direction: column;
       height: 420px;
-      justify-content: space-evenly;
+      justify-content: space-between;
       width: 420px; }
     .Games-tab-box-text {
       color: #f4d03f;
