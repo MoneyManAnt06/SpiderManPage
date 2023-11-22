@@ -70,12 +70,12 @@
     &-tab {
         align-items: center;
         background-image: url("/public/img-cover.jpg");
+        background-size: cover;
         display: flex;
         flex-direction: column;
         height: 798px;
         justify-content: center;
         width: 100%;
-        background-size: cover;
 
         &-container {
             width: 1110px;
@@ -87,6 +87,7 @@
 
         &-box {
             align-items: center;
+            background-color: $cozy-green-lite;
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
@@ -111,6 +112,7 @@
             }
 
             &-paragraph {
+                color: $cream-color;
                 font-size: 20px;
             }
 

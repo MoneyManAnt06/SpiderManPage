@@ -450,18 +450,19 @@ p {
 .Games-tab {
   align-items: center;
   background-image: url("/public/img-cover.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   height: 798px;
   justify-content: center;
-  width: 100%;
-  background-size: cover; }
+  width: 100%; }
   .Games-tab-container {
     width: 1110px; }
   .Games-tab-content {
     display: flex; }
   .Games-tab-box {
     align-items: center;
+    background-color: #85929e;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -481,6 +482,7 @@ p {
       font-size: 33px;
       text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
     .Games-tab-box-paragraph {
+      color: #fcf3cf;
       font-size: 20px; }
     .Games-tab-box-button {
       background: -webkit-linear-gradient(90deg, black 0%, #943126 100%);
@@ -733,9 +735,9 @@ p {
   overflow: hidden; }
 
 .tab button {
-  background-color: inherit;
+  background-color: #fcf3cf;
   border: none;
-  border: 1px solid #85929e;
+  border: 2px solid #f4d03f;
   cursor: pointer;
   float: left;
   height: 52px;
@@ -749,19 +751,25 @@ p {
   background: -moz-linear-gradient(90deg, black 0%, #943126 100%);
   background: -o-linear-gradient(90deg, black 0%, #943126 100%);
   background: linear-gradient(90deg, black 0%, #943126 100%);
-  color: #fdfefe; }
+  color: #f4d03f; }
 
 .tab button.active {
   background: -webkit-linear-gradient(90deg, black 0%, #943126 100%);
   background: -moz-linear-gradient(90deg, black 0%, #943126 100%);
   background: -o-linear-gradient(90deg, black 0%, #943126 100%);
   background: linear-gradient(90deg, black 0%, #943126 100%);
-  color: #fdfefe; }
+  color: #f4d03f; }
 
 .tabcontent {
-  border: 1px solid #85929e;
+  border: 2px solid #f4d03f;
   border-top: none;
   display: none;
   padding: 6px 12px; }
+
+.tablinks {
+  color: #f4d03f;
+  font-family: "Permanent Marker", cursive;
+  font-size: 17px;
+  text-shadow: 3px 3px 0 black, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
 
 /*# sourceMappingURL=main.css.map */
