@@ -1,0 +1,36 @@
+.Banner {
+    display: flex;
+    height: 548px;
+    width: 100%;
+
+    &-sides {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 548px;
+        width: 50%;
+    }
+
+    &-first {
+        background-image: url(/public/img1.jpg);
+    }
+
+    &-second {
+        background-image: url(/public/img2.jpg);
+    }
+
+    &-food {
+        align-items: center;
+        background-color: $black-color;
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        width: 100%;
+
+        &-text {
+            color: $yellow-color;
+            font-family: $food-font;
+            font-size: 33px;
+            text-shadow: 3px 3px 0 $red-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
+        }
+    }
+}

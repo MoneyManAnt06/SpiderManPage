@@ -1,0 +1,53 @@
+.Section {
+    &-aboutUs {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 120px;
+        width: 1440px;
+    }
+
+    &-latest-games {
+        padding: 120px 0 80px;
+    }
+}
+
+.AboutUs {
+    &-content {
+        background-color: $home-darkgrey;
+        display: flex;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    &-text {
+        color: $home-white;
+        width: 50%;
+    }
+
+    &-image {
+        width: 50%;
+    }
+}
+
+.Upcoming {
+    &-games-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-games {
+        height: 339px;
+        padding: 15px;
+        width: 255px;
+
+        &-image {
+            border-radius: 200px;
+            height: 100%;
+            width: 100%;
+        }
+
+        &-title {
+            text-align: center;
+        }
+    }
+}

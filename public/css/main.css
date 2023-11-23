@@ -1,365 +1,634 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 ul {
-  margin: 0; }
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
 
 h1 {
-  margin: 0; }
+  margin: 0;
+}
 
-.About-nav {
-  height: 100px;
-  width: 100%;
-  background-color: #17202a; }
+h2,
+h3 {
+  margin: 0;
+}
 
-.About-logo {
-  height: 70px;
-  width: 109px; }
+p {
+  margin: 0;
+}
 
-.About-list {
+.About-testimonials {
+  align-items: baseline;
+  background-image: url(/public/img4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: black 10px double;
+  border-top: black 10px double;
   display: flex;
-  height: 100px;
+  height: 510px;
   justify-content: center;
+  width: 100%;
+}
+.About-testimonials-slider {
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+}
+.About-testimonials-slides {
   align-items: center;
-  list-style: none; }
-  .About-list-item {
-    display: flex;
-    width: 807px;
-    height: 100px;
-    justify-content: center;
-    align-items: center; }
-  .About-list-button {
-    height: 42px;
-    width: 135px;
-    border-radius: 21px;
-    font-size: 15px;
-    background-color: #884ea0;
-    color: #fdfefe; }
-  .About-list-button:hover {
-    background-color: #4a235a; }
-
-.About-text {
-  color: #fdfefe;
-  margin: 16px;
-  cursor: pointer;
-  font-family: "Roboto Mono", monospace; }
-
-.About-text:hover {
-  color: #884ea0; }
-
-.About-banner {
-  height: 548px;
-  width: 100%;
-  display: flex; }
-  .About-banner-first {
-    background-image: url(/public/img1.jpg);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 548px;
-    background-size: cover; }
-  .About-banner-second {
-    background-image: url(/public/img2.jpg);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 548px;
-    background-size: cover; }
-  .About-banner-food {
-    background-color: #000000;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .About-banner-food-text {
-      color: #f4d03f;
-      font-family: "Permanent Marker", cursive;
-      font-size: 33px; }
-
-.About-box {
-  height: 726px;
-  width: 100%;
-  background-color: #eaeded;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+}
+.About-testimonials-slide {
+  flex: 0 0 100%;
+  padding-right: 64px;
+  padding-top: 85px;
+  text-align: center;
+}
+.About-testimonials-paragraph {
+  color: #fdfefe;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.About-testimonials-title {
+  color: #fdfefe;
+  font-size: 40px;
+}
+.About-testimonials-img {
+  border: 3px solid #515e69;
+  height: 150px;
+  margin-bottom: 60px;
+  transform: rotate(-45deg) skew(-7deg, -7deg);
+  width: 150px;
+}
 
-.About-card {
-  width: 1012px;
-  height: 485px;
-  background-color: #884ea0; }
+.About-review {
+  align-items: center;
+  display: flex;
+  height: 947px;
+  justify-content: center;
+  width: 100%;
+}
+.About-review-head {
+  align-items: center;
+  display: flex;
+  height: 143px;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 1137px;
+}
+.About-review-head-text {
+  color: #f4d03f;
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #17202a, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded;
+}
+.About-review-container {
+  height: 713px;
+  width: 1137px;
+}
+.About-review-container-row {
+  display: flex;
+  height: 163px;
+  width: 1137px;
+}
+.About-review-container-box {
+  height: 163px;
+  width: 568px;
+}
+.About-review-container-text {
+  color: #884ea0;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.About-review-container-paragraph {
+  color: #85929e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 526px;
+}
+
+.About-subscribe {
+  align-items: center;
+  background: linear-gradient(to right, black 0%, #c0392b 100%);
+  display: flex;
+  height: 205px;
+  justify-content: center;
+  margin-bottom: 161px;
+  width: 100%;
+}
+.About-subscribe-box {
+  display: flex;
+  height: 80px;
+  width: 1505px;
+}
+.About-subscribe-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
+  width: 50%;
+}
+.About-subscribe-title-text {
+  align-items: center;
+  color: #fdfefe;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+.About-subscribe-title-paragraph {
+  color: #fdfefe;
+}
+.About-subscribe-email {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 50%;
+}
+.About-subscribe-input {
+  border: transparent;
+  border-radius: 50px;
+  height: 22px;
+  line-height: inherit;
+  outline: none;
+  padding: 13px 30px;
+  width: 50%;
+}
+.About-subscribe-button {
+  background-color: #85929e;
+  border: transparent;
+  border-radius: 21px;
+  color: #fdfefe;
+  cursor: pointer;
+  font-size: 15px;
+  font-size: 18px;
+  height: 42px;
+  position: absolute;
+  right: 362px;
+  width: 135px;
+}
+.About-subscribe-button:hover {
+  background-color: #515e69;
+}
+
+.About-border-up {
+  border-top: #85929e 2px dotted;
+}
+
+.About-border-down {
+  border-bottom: #85929e 2px dotted;
+}
+
+.About-border-right {
+  border-right: #85929e 2px dotted;
+}
 
 .Section-aboutUs {
-  padding-top: 120px;
   margin-left: auto;
   margin-right: auto;
-  width: 1440px; }
+  padding-top: 120px;
+  width: 1440px;
+}
 
 .Section-latest-games {
-  padding: 120px 0 80px; }
+  padding: 120px 0 80px;
+}
 
 .Section-update {
   padding: 120px 0;
   height: 560px;
   background-image: url(/public/avengersinfinitywar.jpeg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .Section-gallery {
-  padding: 120px 0 90px; }
+  padding: 120px 0 90px;
+}
 
 .Section-gaming {
   padding: 120px 0;
   background-image: url(/public/playstation-cover.png);
-  background-size: cover; }
+  background-size: cover;
+}
 
 .Section-pricing {
-  padding: 120px 0 80px; }
+  padding: 120px 0 80px;
+}
 
 .Section-latest-blog {
-  padding: 80px 0 120px; }
+  padding: 80px 0 120px;
+}
 
 .AboutUs-content {
+  background-color: #1c1c1c;
+  display: flex;
   max-width: 100%;
   width: 100%;
-  display: flex;
-  background-color: #1c1c1c; }
+}
 
 .AboutUs-text {
+  color: white;
   width: 50%;
-  color: white; }
+}
 
 .AboutUs-image {
-  width: 50%; }
+  width: 50%;
+}
 
 .Upcoming-games-container {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .Upcoming-games {
-  width: 255px;
   height: 339px;
-  padding: 15px; }
-  .Upcoming-games-image {
-    border-radius: 200px;
-    width: 100%; }
-  .Upcoming-games-title {
-    text-align: center; }
-
-.Update-mask {
-  width: 100%;
+  padding: 15px;
+  width: 255px;
+}
+.Upcoming-games-image {
+  border-radius: 200px;
   height: 100%;
-  background-color: rgba(154, 0, 154, 0.4); }
-
-.Update-container {
   width: 100%;
-  display: flex;
-  margin-right: auto;
-  max-width: 1110px;
-  margin-left: auto;
-  height: 100%;
-  max-height: 480px;
-  flex-direction: column; }
+}
+.Upcoming-games-title {
+  text-align: center;
+}
 
-.Update-list {
-  display: flex;
-  flex-direction: row;
-  list-style: none; }
-  .Update-list :hover {
-    background-color: aqua; }
-  .Update-list-container {
-    display: flex;
-    flex-direction: row; }
-
-.Update-image {
-  height: 100%;
-  width: 100%; }
-  .Update-image-container {
-    width: 50%; }
-
-.Update-text {
-  width: 50%; }
-
-.Gallery-container {
-  max-width: 1140px;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px; }
-
-.Gallery-image-split {
-  width: 100%;
-  height: auto;
-  display: flex; }
-
-.Gallery-image-left {
-  max-width: 760px;
-  width: 80%;
-  padding: 0 15px;
-  height: 100%; }
-
-.Gallery-image-right {
-  width: 20%;
-  height: 100%;
-  padding: 0 15px; }
-
-.Gallery-left-pics {
-  display: flex; }
-
-.Gaming-container {
-  width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
-  height: 270px; }
-
-.Gaming-review {
+.Map {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center; }
-  .Gaming-review-name {
-    color: white; }
-  .Gaming-review-text {
-    color: white;
-    text-align: center;
-    max-width: 480px; }
-
-.Gaming-rating {
-  padding: 0;
-  color: aqua;
-  list-style: none;
-  display: flex; }
-
-.Pricing-container {
-  width: 1140px;
-  margin-right: auto;
-  margin-left: auto; }
-
-.Pricing-padding {
-  max-width: 33.33%;
-  padding: 0 15px; }
-
-.Pricing-packages {
-  display: flex;
-  justify-content: center; }
-
-.Pricing-background {
-  color: #f2f2f2;
-  background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
-  margin-bottom: 40px;
-  width: 350px; }
-
-.Pricing-package-title {
-  text-align: center;
-  margin: 0;
-  padding: 35px 30px 25px; }
-
-.Pricing-price {
-  font-size: 36px;
-  padding: 30px;
-  text-align: center;
-  background: #342b7e; }
-
-.Pricing-list {
-  list-style: none;
-  padding: 35px 50px 18px; }
-  .Pricing-list-item {
-    font-weight: 400;
-    padding: 14px 0;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.2); }
-
-.Pricing-button {
-  max-width: 198px;
+  height: 951px;
+  justify-content: center;
   width: 100%;
-  padding-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto; }
+}
+.Map-box {
+  border: #4a235a 5px double;
+  height: 416px;
+  margin-top: 120px;
+  width: 1109px;
+}
+.Map-info {
+  display: flex;
+  height: 214px;
+  margin-top: 79px;
+  width: 1109px;
+}
+.Map-info-data {
+  display: flex;
+  flex-direction: column;
+  height: 214px;
+  justify-content: space-around;
+  width: 286px;
+}
+.Map-info-data-box {
+  display: flex;
+}
+.Map-info-data-item {
+  display: flex;
+  flex-direction: column;
+}
+.Map-info-icon {
+  height: 50px;
+  width: 50px;
+}
+.Map-info-icon-custom {
+  color: #515e69;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.Map-info-text {
+  color: black;
+}
+.Map-info-inputs {
+  height: 214px;
+  width: 853px;
+}
+.Map-info-form-box {
+  display: flex;
+}
+.Map-info-form-left {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 145px;
+  justify-content: space-evenly;
+  width: 427px;
+}
+.Map-info-form-right {
+  align-items: center;
+  display: flex;
+  height: 145px;
+  justify-content: center;
+  width: 430px;
+}
+.Map-info-form-input {
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  color: #495057;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  height: 21px;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 349px;
+}
+.Map-info-form-message {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  color: #495057;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  height: 123px;
+  line-height: 1.5;
+  max-height: 123px;
+  max-width: 376px;
+  min-height: 100px;
+  min-width: 300px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 376px;
+}
+.Map-info-form-footer {
+  align-items: center;
+  display: flex;
+  height: 69px;
+  justify-content: flex-end;
+  margin-right: 20px;
+  width: 100%;
+}
+.Map-info-form-button {
+  align-items: center;
+  background-color: #4a235a;
+  border: none;
+  border-radius: 7px;
+  color: #f4d03f;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  height: 47px;
+  justify-content: center;
+  line-height: 50px;
+  margin-right: 25px;
+  width: 169px;
+}
+.Map-info-form-button:hover {
+  background-color: #85929e;
+}
 
-.Pricing-tag {
+.Header-nav {
+  background-color: #17202a;
+  height: 100px;
+  width: 100%;
+}
+
+.Header-logo {
+  height: 70px;
+  width: 109px;
+}
+
+.Header-list {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  list-style: none;
+}
+.Header-list-item {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 807px;
+}
+.Header-list-button {
+  background-color: #884ea0;
+  border-radius: 21px;
+  color: #fdfefe;
+  font-size: 15px;
+  height: 42px;
+  width: 135px;
+}
+.Header-list-button:hover {
+  background-color: #4a235a;
+}
+
+.Header-text {
+  color: #fdfefe;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  margin: 16px;
   text-decoration: none;
-  border: 2px solid;
-  border-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-  border-image-slice: 1;
-  color: #fff;
-  display: inline-block;
-  overflow: hidden;
-  padding: 0 60px;
-  line-height: 46px; }
-  .Pricing-tag:hover {
-    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-    color: black; }
+}
 
-.Question-center {
-  width: 1140px;
-  margin-left: auto;
-  margin-right: auto; }
+.Header-text:hover {
+  color: #884ea0;
+}
 
-.Question-main-title {
-  text-align: center;
-  margin-bottom: 60px; }
-
-.Question-container {
+.Footer {
+  align-items: center;
+  background-color: black;
   display: flex;
-  border-bottom: 2px dotted grey; }
-  .Question-container-left {
-    max-width: 50%;
-    width: 100%;
-    border-right: 2px dotted grey; }
-  .Question-container-right {
-    max-width: 50%;
-    width: 100%;
-    margin-left: 80px; }
-  .Question-container-inner {
-    width: 100%;
-    max-width: 470px; }
-
-.Question-sub-titles {
-  margin: 0;
-  padding-top: 40px; }
-
-.Question-text {
-  padding: 30px 20px 40px 0; }
-
-.Question-last-border {
-  border-bottom: none; }
-
-.Latest-blog-image {
+  height: 540px;
+  justify-content: center;
   width: 100%;
-  height: 100%; }
-  .Latest-blog-image-container {
-    height: 220px; }
-
-.Latest-blog-text {
-  padding: 40px 20px 50px; }
+}
+.Footer-box {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 74%;
+  width: 90%;
+}
+.Footer-right {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 50%;
+}
+.Footer-right-box {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.Footer-right-img {
+  border: #fdfefe 2px double;
+  height: 189px;
+  width: 190px;
+}
+.Footer-left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  width: 50%;
+}
+.Footer-left-list {
+  align-items: center;
+  border-bottom: #85929e 2px solid;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  width: 100%;
+}
+.Footer-left-item {
+  color: #fdfefe;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  list-style: none;
+  margin: 16px;
+  text-decoration: none;
+}
+.Footer-left-item:hover {
+  color: #f4d03f;
+}
+.Footer-left-gif {
+  height: 65%;
+  width: 100%;
+}
 
 .NavBar {
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
-  height: 90px;
   display: flex;
-  align-items: center; }
-  .NavBar-Image {
-    width: 200px;
-    height: 100%; }
-  .NavBar-List {
-    display: flex;
-    list-style: none;
-    color: white;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600; }
+  height: 90px;
+}
+.NavBar-Image {
+  height: 100%;
+  width: 200px;
+}
+.NavBar-List {
+  color: white;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+}
 
 .Marvel-Image {
-  width: 100%;
   height: 100%;
-  margin-left: 20px; }
+  margin-left: 20px;
+  width: 100%;
+}
 
 .NavBar-Text:hover {
-  color: red; }
+  color: red;
+}
+
+.Banner {
+  display: flex;
+  height: 548px;
+  width: 100%;
+}
+.Banner-sides {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 548px;
+  width: 50%;
+}
+.Banner-first {
+  background-image: url(/public/img1.jpg);
+}
+.Banner-second {
+  background-image: url(/public/img2.jpg);
+}
+.Banner-food {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+}
+.Banner-food-text {
+  color: #f4d03f;
+  font-family: "Permanent Marker", cursive;
+  font-size: 33px;
+  text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded;
+}
+
+.AboutUs-box {
+  align-items: center;
+  background-color: #eaeded;
+  display: flex;
+  height: 726px;
+  justify-content: center;
+  width: 100%;
+}
+
+.AboutUs-card {
+  display: flex;
+  height: 485px;
+  width: 1012px;
+}
+.AboutUs-card-left {
+  align-items: center;
+  background-color: black;
+  border: #fdfefe 5px dotted;
+  display: flex;
+  height: 485px;
+  justify-content: center;
+  width: 50%;
+}
+.AboutUs-card-right {
+  background-image: url(/public/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: #c0392b 5px dotted;
+  height: 485px;
+  width: 50%;
+}
+.AboutUs-card-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 392px;
+  justify-content: center;
+  width: 453px;
+}
+.AboutUs-card-text {
+  color: #fdfefe;
+  font-size: 21px;
+}
+.AboutUs-card-heading {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
 
 /*# sourceMappingURL=main.css.map */

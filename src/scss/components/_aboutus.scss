@@ -1,0 +1,57 @@
+.AboutUs {
+    &-box {
+        align-items: center;
+        background-color: $cozy-green;
+        display: flex;
+        height: 726px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &-card {
+        display: flex;
+        height: 485px;
+        width: 1012px;
+
+        &-left {
+            align-items: center;
+            background-color: $black-color;
+            border: $white-color 5px dotted;
+            display: flex;
+            height: 485px;
+            justify-content: center;
+            width: 50%;
+        }
+
+        &-right {
+            background-image: url(/public/img3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: $red-color 5px dotted;
+            height: 485px;
+            width: 50%;
+        }
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            height: 392px;
+            justify-content: center;
+            width: 453px;
+        }
+
+        &-text {
+            color: $white-color;
+            font-size: 21px;
+        }
+
+        &-heading {
+            color: $home-white;
+            font-family: $nav-font;
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+    }
+}
