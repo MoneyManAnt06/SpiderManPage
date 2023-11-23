@@ -368,10 +368,10 @@ p {
     margin: 0;
     margin-bottom: 40px;
     width: 100%; }
-    .Pricing-card-price-list {
-      align-items: center;
-      display: flex;
-      flex-direction: column; }
+  .Pricing-card-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
   .Pricing-card-text {
     color: #fdfefe;
     display: flex;
@@ -383,18 +383,6 @@ p {
     justify-content: center;
     margin-top: 36px;
     width: 100%; }
-  .Pricing-card-button {
-    align-items: center;
-    background-color: black;
-    border-radius: 13px;
-    color: #fdfefe;
-    display: flex;
-    height: 49px;
-    justify-content: center;
-    text-decoration: none;
-    width: 200px; }
-  .Pricing-card-button:hover {
-    border: 2px solid #fdfefe; }
 
 .Games-gallery {
   align-items: center;
@@ -523,15 +511,6 @@ p {
     height: 100px;
     justify-content: center;
     width: 807px; }
-  .Header-list-button {
-    background-color: #884ea0;
-    border-radius: 21px;
-    color: #fdfefe;
-    font-size: 15px;
-    height: 42px;
-    width: 135px; }
-  .Header-list-button:hover {
-    background-color: #4a235a; }
 
 .Header-text {
   color: #fdfefe;
@@ -594,8 +573,8 @@ p {
       list-style: none;
       margin: 16px;
       text-decoration: none; }
-    .Footer-left-item:hover {
-      color: #f4d03f; }
+      .Footer-left-item:hover {
+        color: #f4d03f; }
     .Footer-left-gif {
       height: 65%;
       width: 100%; }
@@ -756,5 +735,28 @@ p {
   .Button-tab-b.active {
     background: linear-gradient(90deg, black 0%, #943126 100%);
     color: #f4d03f; }
+
+.Button-pricing-b {
+  align-items: center;
+  background-color: black;
+  border-radius: 13px;
+  color: #fdfefe;
+  display: flex;
+  height: 49px;
+  justify-content: center;
+  text-decoration: none;
+  width: 200px; }
+  .Button-pricing-b:hover {
+    border: 2px solid #fdfefe; }
+
+.Button-header-list {
+  background-color: #884ea0;
+  border-radius: 21px;
+  color: #fdfefe;
+  font-size: 15px;
+  height: 42px;
+  width: 135px; }
+  .Button-header-list:hover {
+    background-color: #4a235a; }
 
 /*# sourceMappingURL=main.css.map */

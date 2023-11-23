@@ -24,19 +24,6 @@
             justify-content: center;
             width: 807px;
         }
-
-        &-button {
-            background-color: $button-color;
-            border-radius: 21px;
-            color: $white-color;
-            font-size: 15px;
-            height: 42px;
-            width: 135px;
-        }
-
-        &-button:hover {
-            background-color: $button-dark;
-        }
     }
 
     &-text {

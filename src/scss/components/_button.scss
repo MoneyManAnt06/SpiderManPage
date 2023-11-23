@@ -21,4 +21,33 @@
             color: $yellow-color;
         }
     }
+
+    &-pricing-b {
+        align-items: center;
+        background-color: $black-color;
+        border-radius: 13px;
+        color: $white-color;
+        display: flex;
+        height: 49px;
+        justify-content: center;
+        text-decoration: none;
+        width: 200px;
+
+        &:hover {
+            border: 2px solid $white-color;
+        }
+    }
+
+    &-header-list {
+        background-color: $button-color;
+        border-radius: 21px;
+        color: $white-color;
+        font-size: 15px;
+        height: 42px;
+        width: 135px;
+
+        &:hover {
+            background-color: $button-dark;
+        }
+    }
 }
