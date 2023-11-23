@@ -8,6 +8,7 @@ body {
   background-image: url(/Public/coolBackground.avif);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .Marvel-Image {
@@ -29,11 +30,12 @@ body {
   width: 50%;
   background-repeat: no-repeat;
   max-height: 1200px;
-  height: 1200px;
+  height: 100vh;
 }
 
 .Banner-image {
   width: 100%;
+  height: 90%;
 }
 
 .Banner-slogan {

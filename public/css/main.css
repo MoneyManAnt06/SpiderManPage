@@ -102,6 +102,27 @@ h1 {
 .Section-latest-games {
   padding: 120px 0 80px; }
 
+.Section-update {
+  padding: 120px 0;
+  height: 560px;
+  background-image: url(/public/avengersinfinitywar.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.Section-gallery {
+  padding: 120px 0 90px; }
+
+.Section-gaming {
+  padding: 120px 0;
+  background-image: url(/public/playstation-cover.png);
+  background-size: cover; }
+
+.Section-pricing {
+  padding: 120px 0 80px; }
+
+.Section-latest-blog {
+  padding: 80px 0 120px; }
+
 .AboutUs-content {
   max-width: 100%;
   width: 100%;
@@ -125,10 +146,195 @@ h1 {
   padding: 15px; }
   .Upcoming-games-image {
     border-radius: 200px;
-    width: 100%;
-    height: 100%; }
+    width: 100%; }
   .Upcoming-games-title {
     text-align: center; }
+
+.Update-mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(154, 0, 154, 0.4); }
+
+.Update-container {
+  width: 100%;
+  display: flex;
+  margin-right: auto;
+  max-width: 1110px;
+  margin-left: auto;
+  height: 100%;
+  max-height: 480px;
+  flex-direction: column; }
+
+.Update-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none; }
+  .Update-list :hover {
+    background-color: aqua; }
+  .Update-list-container {
+    display: flex;
+    flex-direction: row; }
+
+.Update-image {
+  height: 100%;
+  width: 100%; }
+  .Update-image-container {
+    width: 50%; }
+
+.Update-text {
+  width: 50%; }
+
+.Gallery-container {
+  max-width: 1140px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.Gallery-image-split {
+  width: 100%;
+  height: auto;
+  display: flex; }
+
+.Gallery-image-left {
+  max-width: 760px;
+  width: 80%;
+  padding: 0 15px;
+  height: 100%; }
+
+.Gallery-image-right {
+  width: 20%;
+  height: 100%;
+  padding: 0 15px; }
+
+.Gallery-left-pics {
+  display: flex; }
+
+.Gaming-container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 270px; }
+
+.Gaming-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .Gaming-review-name {
+    color: white; }
+  .Gaming-review-text {
+    color: white;
+    text-align: center;
+    max-width: 480px; }
+
+.Gaming-rating {
+  padding: 0;
+  color: aqua;
+  list-style: none;
+  display: flex; }
+
+.Pricing-container {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.Pricing-padding {
+  max-width: 33.33%;
+  padding: 0 15px; }
+
+.Pricing-packages {
+  display: flex;
+  justify-content: center; }
+
+.Pricing-background {
+  color: #f2f2f2;
+  background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+  margin-bottom: 40px;
+  width: 350px; }
+
+.Pricing-package-title {
+  text-align: center;
+  margin: 0;
+  padding: 35px 30px 25px; }
+
+.Pricing-price {
+  font-size: 36px;
+  padding: 30px;
+  text-align: center;
+  background: #342b7e; }
+
+.Pricing-list {
+  list-style: none;
+  padding: 35px 50px 18px; }
+  .Pricing-list-item {
+    font-weight: 400;
+    padding: 14px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2); }
+
+.Pricing-button {
+  max-width: 198px;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.Pricing-tag {
+  text-decoration: none;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  border-image-slice: 1;
+  color: #fff;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 60px;
+  line-height: 46px; }
+  .Pricing-tag:hover {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    color: black; }
+
+.Question-center {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.Question-main-title {
+  text-align: center;
+  margin-bottom: 60px; }
+
+.Question-container {
+  display: flex;
+  border-bottom: 2px dotted grey; }
+  .Question-container-left {
+    max-width: 50%;
+    width: 100%;
+    border-right: 2px dotted grey; }
+  .Question-container-right {
+    max-width: 50%;
+    width: 100%;
+    margin-left: 80px; }
+  .Question-container-inner {
+    width: 100%;
+    max-width: 470px; }
+
+.Question-sub-titles {
+  margin: 0;
+  padding-top: 40px; }
+
+.Question-text {
+  padding: 30px 20px 40px 0; }
+
+.Question-last-border {
+  border-bottom: none; }
+
+.Latest-blog-image {
+  width: 100%;
+  height: 100%; }
+  .Latest-blog-image-container {
+    height: 220px; }
+
+.Latest-blog-text {
+  padding: 40px 20px 50px; }
 
 .NavBar {
   background-color: rgba(0, 0, 0, 0.4);
