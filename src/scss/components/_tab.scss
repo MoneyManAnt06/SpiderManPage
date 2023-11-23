@@ -1,48 +1,48 @@
-.tab {
+.Tab {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-}
 
-.tab button {
-    background-color: $cream-color;
-    border: none;
-    border: 2px solid $yellow-color;
-    cursor: pointer;
-    float: left;
-    height: 52px;
-    outline: none;
-    padding: 14px 16px;
-    transition: 0.3s;
-    width: 346px;
-}
+    &-button {
+        background-color: $cream-color;
+        border: none;
+        border: 2px solid $yellow-color;
+        cursor: pointer;
+        float: left;
+        height: 52px;
+        outline: none;
+        padding: 14px 16px;
+        transition: 0.3s;
+        width: 346px;
 
-.tab button:hover {
-    background: -webkit-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    background: -moz-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    background: -o-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    color: $yellow-color;
-}
+        &:hover {
+            background: -webkit-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            background: -moz-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            background: -o-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            color: $yellow-color;
+        }
+    }
 
-.tab button.active {
-    background: -webkit-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    background: -moz-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    background: -o-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
-    color: $yellow-color;
-}
+    &-button.active {
+        background: -webkit-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+        background: -moz-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+        background: -o-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+        background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+        color: $yellow-color;
+    }
 
-.tabcontent {
-    border: 2px solid $yellow-color;
-    border-top: none;
-    display: none;
-    padding: 6px 12px;
-}
+    &-tabcontent {
+        border: 2px solid $yellow-color;
+        border-top: none;
+        display: none;
+        padding: 6px 12px;
+    }
 
-.tablinks {
-    color: $yellow-color;
-    font-family: $food-font;
-    font-size: 17px;
-    text-shadow: 3px 3px 0 $black-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
+    &-tablinks {
+        color: $yellow-color;
+        font-family: $food-font;
+        font-size: 17px;
+        text-shadow: 3px 3px 0 $black-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
+    }
 }
