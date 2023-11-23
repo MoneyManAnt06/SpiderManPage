@@ -1,12 +1,12 @@
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
 
-  tabcontent = document.getElementsByClassName("Tab-tabcontent");
+  tabcontent = document.getElementsByClassName("Tab-content");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
-  tablinks = document.getElementsByClassName("Tab-tablinks");
+  tablinks = document.getElementsByClassName("Tab-links");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }

@@ -1,0 +1,24 @@
+.Button {
+    &-tab-b {
+        background-color: $cream-color;
+        border: none;
+        border: 2px solid $yellow-color;
+        cursor: pointer;
+        float: left;
+        height: 52px;
+        outline: none;
+        padding: 14px 16px;
+        transition: 0.3s;
+        width: 346px;
+
+        &:hover {
+            background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            color: $yellow-color;
+        }
+
+        &.active {
+            background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            color: $yellow-color;
+        }
+    }
+}

@@ -728,38 +728,33 @@ p {
   display: flex;
   justify-content: space-between;
   overflow: hidden; }
-  .Tab-button {
-    background-color: #fcf3cf;
-    border: none;
-    border: 2px solid #f4d03f;
-    cursor: pointer;
-    float: left;
-    height: 52px;
-    outline: none;
-    padding: 14px 16px;
-    transition: 0.3s;
-    width: 346px; }
-    .Tab-button:hover {
-      background: -webkit-linear-gradient(90deg, black 0%, #943126 100%);
-      background: -moz-linear-gradient(90deg, black 0%, #943126 100%);
-      background: -o-linear-gradient(90deg, black 0%, #943126 100%);
-      background: linear-gradient(90deg, black 0%, #943126 100%);
-      color: #f4d03f; }
-  .Tab-button.active {
-    background: -webkit-linear-gradient(90deg, black 0%, #943126 100%);
-    background: -moz-linear-gradient(90deg, black 0%, #943126 100%);
-    background: -o-linear-gradient(90deg, black 0%, #943126 100%);
-    background: linear-gradient(90deg, black 0%, #943126 100%);
-    color: #f4d03f; }
-  .Tab-tabcontent {
+  .Tab-content {
     border: 2px solid #f4d03f;
     border-top: none;
     display: none;
     padding: 6px 12px; }
-  .Tab-tablinks {
+  .Tab-links {
     color: #f4d03f;
     font-family: "Permanent Marker", cursive;
     font-size: 17px;
     text-shadow: 3px 3px 0 black, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
+
+.Button-tab-b {
+  background-color: #fcf3cf;
+  border: none;
+  border: 2px solid #f4d03f;
+  cursor: pointer;
+  float: left;
+  height: 52px;
+  outline: none;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width: 346px; }
+  .Button-tab-b:hover {
+    background: linear-gradient(90deg, black 0%, #943126 100%);
+    color: #f4d03f; }
+  .Button-tab-b.active {
+    background: linear-gradient(90deg, black 0%, #943126 100%);
+    color: #f4d03f; }
 
 /*# sourceMappingURL=main.css.map */
