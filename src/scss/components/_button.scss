@@ -1,6 +1,6 @@
 .Button {
-    &-tab-b {
-        background-color: $cream-color;
+    &-tab {
+        background-color: $red-color;
         border: none;
         border: 2px solid $yellow-color;
         cursor: pointer;
@@ -22,7 +22,7 @@
         }
     }
 
-    &-pricing-b {
+    &-pricing {
         align-items: center;
         background-color: $black-color;
         border-radius: 13px;

@@ -1,5 +1,4 @@
 .About {
-    
     &-testimonials {
         align-items: baseline;
         background-image: url(/public/img4.jpeg);
@@ -91,7 +90,7 @@
             }
 
             &-text {
-                color: $button-color;
+                color: $nav-color;
                 font-size: 25px;
                 margin-left: 25px;
                 margin-top: 25px;
@@ -115,7 +114,6 @@
         display: flex;
         height: 205px;
         justify-content: center;
-        margin-bottom: 161px;
         width: 100%;
 
         &-box {
