@@ -9410,15 +9410,14 @@ p {
     gap: 10px;
     height: 100%;
     justify-content: center;
-    width: 50%; }
-    .About-subscribe-title-text {
-      align-items: center;
-      color: #fdfefe;
-      font-family: "Rajdhani", sans-serif;
-      font-size: 23px;
-      font-weight: 600; }
-    .About-subscribe-title-paragraph {
-      color: #fdfefe; }
+    width: 50%;
+    color: #fdfefe; }
+  .About-subscribe-text {
+    align-items: center;
+    color: #fdfefe;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 23px;
+    font-weight: 600; }
   .About-subscribe-email {
     align-items: center;
     display: flex;
@@ -9762,9 +9761,9 @@ p {
       background: linear-gradient(90deg, #943126 0%, black 100%); }
   .Games-tab-images {
     width: 50%; }
-    .Games-tab-images-size {
-      height: 546px;
-      width: 541px; }
+  .Games-tab-size {
+    height: 546px;
+    width: 541px; }
 
 .Header-nav {
   background-color: #17202a;
@@ -9794,9 +9793,8 @@ p {
   font-family: "Roboto Mono", monospace;
   margin: 16px;
   text-decoration: none; }
-
-.Header-text:hover {
-  color: #884ea0; }
+  .Header-text:hover {
+    color: #884ea0; }
 
 .Footer {
   align-items: center;
@@ -10025,14 +10023,14 @@ p {
   .Button-pricing:hover {
     border: 2px solid #fdfefe; }
 
-.Button-header-list {
+.Button-join {
   background-color: #884ea0;
   border-radius: 21px;
   color: #fdfefe;
   font-size: 15px;
   height: 42px;
   width: 135px; }
-  .Button-header-list:hover {
+  .Button-join:hover {
     background-color: #4a235a; }
 
 /*# sourceMappingURL=main.css.map */

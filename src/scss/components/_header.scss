@@ -32,9 +32,9 @@
         font-family: $nav-font;
         margin: 16px;
         text-decoration: none;
-    }
 
-    &-text:hover {
-        color: $button-color;
+        &:hover {
+            color: $button-color;
+        }
     }
 }
