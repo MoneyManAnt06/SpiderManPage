@@ -81,10 +81,6 @@
             width: 1110px;
         }
 
-        &-content {
-            display: flex;
-        }
-
         &-box {
             align-items: center;
             background-color: $cozy-green-lite;
@@ -123,17 +119,17 @@
                 color: $white-color;
                 height: 53px;
                 width: 154px;
-            }
 
-            &-button:hover {
-                background: -webkit-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
-                background: -moz-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
-                background: -o-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
-                background: linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                &:hover {
+                    background: -webkit-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                    background: -moz-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                    background: -o-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                    background: linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                }
             }
         }
 
-        &-image {
+        &-images {
             width: 50%;
 
             &-size {

@@ -23,11 +23,6 @@
         width: 1110px;
     }
 
-    &-box {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
     &-card {
         align-items: center;
         background: linear-gradient(to right, $red-dark 0%, $red-color 51%, $red-dark 100%);
@@ -52,20 +47,12 @@
             background-color: $black-color;
             color: $white-color;
             display: flex;
-            display: flex;
             font-weight: bold;
             height: 100px;
             justify-content: center;
-            justify-content: center;
             margin: 0;
             margin-bottom: 40px;
-            width: 100%;
-        }
-
-        &-list {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
+            font-size: 30px;
         }
 
         &-text {
@@ -80,7 +67,6 @@
             display: flex;
             justify-content: center;
             margin-top: 36px;
-            width: 100%;
         }
     }
 }
