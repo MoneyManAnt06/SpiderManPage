@@ -1,343 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Page</title>
-  <link rel="stylesheet" href="/public/css/styles.css" />
-</head>
-<body>
-  <div class="container">
-    <div class="NavBar">
-      <div class="NavBar-Image">
-        <img class="Marvel-Image" src="/Public/marvel.png" alt="Marvel Logo" />
-      </div>
-      <ul class="NavBar-List">
-        <li class="About-text">HOME</li>
-        <li class="About-text">ABOUT</li>
-        <li class="About-text">GALLERY</li>
-        <li class="About-text">COMICS</li>
-        <li class="About-text">BLOG</li>
-        <li class="About-text">CONTACT</li>
-      </ul>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Page</title>
+    <link rel="stylesheet" href="/public/css/styles.css" />
+  </head>
+  <body>
     <div class="Banner-container">
-      <div class="Banner-image-container">
-        <img class="Banner-image" src="./Public/IRONMAN.png" alt="Iron Man" />
-      </div>
-      <div class="Banner-slogan">
-        <p class="banner-text">Find The Hero Within You</p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos totam quas saepe alias
-          deleniti optio quasi, culpa nostrum fuga aliquid sed possimus minus facilis.
-        </p>
-        <input class="button" type="button" value="Buy Now" onclick="msg()" />
-      </div>
-    </div>
-  </div>
-  <section class="Section-aboutUs">
-    <div class="AboutUs-content">
-      <div class="AboutUs-text">
-        <h4>ABOUT US</h4>
-        <p>MARVEL CORPORATE INFORMATION</p>
-        <p>
-          Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most
-          prominent character-based entertainment companies, built on a proven library of more than 8,000 characters
-          featured in a variety of media over seventy-five years. Marvel utilizes its character franchises in
-          entertainment, licensing and publishing.
-        </p>
-        <input class="button" type="button" value="Buy Now" onclick="msg()" />
-      </div>
-      <div class="AboutUs-image">
-        <img class="Marvel-Image" src="/Public/marvelChar2.jpeg" alt="Marvel Logo" />
-      </div>
-    </div>
-  </section>
-  <section class="Section-latest-games">
-    <div class="boxContainer">
-      <h2 class="Upcoming-games-title">Latest Games</h2>
-      <div class="Upcoming-games-container">
-        <div class="Upcoming-games">
-          <img class="Upcoming-games-image" src="/public/wolverine cover.jpeg" alt="">
-          <div>
-            <h3 class="Upcoming-games-title">The Wolverine</h3>
-          </div>
-        </div>
-        <div class="Upcoming-games">
-          <div>
-            <img class="Upcoming-games-image" src="/public/spiderMan2-cover.jpeg" alt="">
-            <h3 class="Upcoming-games-title">Marvel's Spider-Man 2</h3>
-          </div>
-        </div>
-        <div class="Upcoming-games">
-          <div>
-            <img class="Upcoming-games-image" src="/public/marvelsmidnightsuns-cover.jpeg" alt="">
-            <h3 class="Upcoming-games-title">Marvel's Midnight Suns</h3>
-          </div>
-        </div>
-        <div class="Upcoming-games">
-          <div>
-            <img class="Upcoming-games-image" src="/public/marvelsnap-cover.png" alt="">
-            <h3 class="Upcoming-games-title">MARVEL SNAP</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div id="common-header"></div>
 
-  <section class="Section-update">
-    <div class="Update-mask">
-      <div class="Update-container">
-        <ul class="Update-list">
-          <li>
-            <button>STREAMING ON</button>
-          </li>
-          <li> 
-            <button>MOVIES</button>
-          </li>
-          <li> 
-            <button>COMICS</button>
-          </li>
-        </ul>
-
-        <div class="Update-list-container">
-          <div class="Update-image-container">
-            <img class="Update-image" src="/public/disneyplus.webp" alt="marvel and disney plus">
-          </div>
-          <div class="Update-text">
-            <h4>ABOUT US</h4>
-          <p>MARVEL CORPORATE INFORMATION</p>
+      <div class="d-flex">
+        <div class="Banner-image-container">
+          <img class="Banner-image" src="./Public/IRONMAN.png" alt="Iron Man" />
+        </div>
+        <div class="Banner-slogan">
+          <p class="Banner-text">Find The Hero Within You</p>
           <p>
-            Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most prominent character-based entertainment companies, built on a proven library of more than 8,000 characters featured in a variety of media over seventy-five years. Marvel utilizes its character franchises in entertainment, licensing and publishing.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos totam quas saepe alias
+            deleniti optio quasi, culpa nostrum fuga aliquid sed possimus minus facilis.
           </p>
           <input class="button" type="button" value="Buy Now" onclick="msg()" />
-          </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="Section-gallery">
-    <div class="Gallery-container">
-      <h2>Marvel Gallery</h2>
-      <div class="Gallery-image-split">
-        <div class="Gallery-image-left">
-          <div class="Gallery-left-pics">
-            <img src="/public/helicarrier.jpeg" alt="">
-            <img src="/public/spiderman.jpeg" alt="">
-          </div> 
-          <img src="/public/marvelLogo.webp" alt=""> 
+    <section class="AboutUs">
+      <div class="AboutUs-content">
+        <div class="AboutUs-text">
+          <h4>ABOUT US</h4>
+          <p>MARVEL CORPORATE INFORMATION</p>
+          <p>
+            Marvel Entertainment, LLC, a wholly-owned subsidiary of The Walt Disney Company, is one of the world's most
+            prominent character-based entertainment companies, built on a proven library of more than 8,000 characters
+            featured in a variety of media over seventy-five years. Marvel utilizes its character franchises in
+            entertainment, licensing and publishing.
+          </p>
+          <input class="button" type="button" value="Buy Now" onclick="msg()" />
         </div>
-        <div class="Gallery-image-right">
-          <div>
-            <img src="/public/avengers-portrait.jpeg" alt="">
-          </div> 
+        <div class="w-50">
+          <img class="Marvel-Image" src="/Public/marvelChar2.jpeg" alt="Marvel Logo" />
         </div>
       </div>
-    </div>
-  </section>
-  <section class="Section-gaming">
-    <div class="Gaming-container">
-      <div class="Gaming-review">
-        <img src="/public/gamingReview.webp" alt="">
-        <h4 class="Gaming-review-name">Anthony Lopez</h4>
-   <ul class="Gaming-rating">
-    <li><i class="fa-solid fa-star"></i> </li>
-    <li> <i class="fa-solid fa-star"></i></li>
-    <li> <i class="fa-solid fa-star"></i></li>
-    <li> <i class="fa-solid fa-star"></i></li>
-    <li> <i class="fa-solid fa-star"></i></li>
-   </ul>
-        <p class="Gaming-review-text" >Spider-Man 2 met my surpassed my expectations. Every scene was of Hollywood quality. The graphics are an A tier quality in fidelity mode you can see the fine detail in the suits of the characters.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="Section-pricing">
-    <div class="Pricing-container">
-      <div class="Pricing-title">
-        <h1>Pricing Plans</h1>
-      </div>
-      <div class="Pricing-packages">
-        <div class="Pricing-padding">
-          <div class="Pricing-background">
-            <h3 class="Pricing-package-title">Silver Package</h3>
-            <h1 class="Pricing-price">$45.00</h1>
+    </section>
+    <section class="latest-games">
+      <div class="boxContainer">
+        <h2 class="text-center">Latest Games</h2>
+        <div class="d-flex justify-content-center">
+          <div class="Upcoming-games">
+            <img class="Upcoming-games-image" src="/public/wolverine cover.jpeg" alt="Wolverine Game Cover" />
             <div>
-              <ul class="Pricing-list">
-                <li class="Pricing-list-item">Birthday Gift</li>
-                <li class="Pricing-list-item"> Discount Tuesdays</li>
-                <li class="Pricing-list-item">Exclusive offers & Screenings</li>
-              </ul>
-            </div>
-            <div class="Pricing-button">
-              <a class="Pricing-tag" href="#"> Buy Now</a>
+              <h3 class="text-center">The Wolverine</h3>
             </div>
           </div>
-        </div>
-        <div class="Pricing-padding">
-          <div class="Pricing-background">
-            <h3 class="Pricing-package-title">Silver Package</h3>
-            <h1 class="Pricing-price">$45.00</h1>
+          <div class="Upcoming-games">
             <div>
-              <ul class="Pricing-list">
-                <li class="Pricing-list-item">No Expiration on Points</li>
-                <li class="Pricing-list-item"> Free Upgrades on snacks & drinks at Disney parks</li>
-                <li class="Pricing-list-item">Priority Lanes</li>
-              </ul>
-            </div>
-            <div class="Pricing-button">
-              <a class="Pricing-tag" href="#"> Buy Now</a>
+              <img
+                class="Upcoming-games-image"
+                src="/public/spiderMan2-cover.jpeg"
+                alt="Marvel's Spider-Man 2 Game Cover"
+              />
+              <h3 class="text-center">Marvel's Spider-Man 2</h3>
             </div>
           </div>
-        </div>
-        <div class="Pricing-padding">
-          <div class="Pricing-background">
-            <h3 class="Pricing-package-title">Silver Package</h3>
-            <h1 class="Pricing-price">$45.00</h1>
+          <div class="Upcoming-games">
             <div>
-              <ul class="Pricing-list">
-                <li class="Pricing-list-item">Hotel access</li>
-                <li class="Pricing-list-item"> Discount on all events</li>
-                <li class="Pricing-list-item">Free Merch on certain items</li>
-              </ul>
+              <img
+                class="Upcoming-games-image"
+                src="/public/marvelsmidnightsuns-cover.jpeg"
+                alt="Marvel's Midnight Suns Game Cover"
+              />
+              <h3 class="text-center">Marvel's Midnight Suns</h3>
             </div>
-            <div class="Pricing-button">
-              <a class="Pricing-tag" href="#">Buy Now </a>
+          </div>
+          <div class="Upcoming-games">
+            <div>
+              <img class="Upcoming-games-image" src="/public/marvelsnap-cover.png" alt="Marvel Snap Game Cover" />
+              <h3 class="text-center">MARVEL SNAP</h3>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="Section-questions">
-    <div class="Question-center">
-      <h1 class="Question-main-title">Frequently Asked Questions</h1>
-      <div class="Question-container">
-        <div class="Question-container-left">
-          <div class="Question-container-inner">
-            <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
-            <p class="Question-text">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why it's crucial that as women.</p>
-          </div>
-        </div>
-        <div class="Question-container-right">
-          <div class="Question-container-inner">
-            <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
-            <p class="Question-text">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why it's crucial that as women.</p>
-          </div>
-        </div>
-      </div>
-      <div class="Question-container">
-        <div class="Question-container-left">
-          <div class="Question-container-inner">
-            <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
-            <p class="Question-text">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why it's crucial that as women.</p>
-          </div>
-        </div>
-        <div class="Question-container-right">
-          <div class="Question-container-inner">
-            <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
-            <p class="Question-text">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why it's crucial that as women.</p>
-          </div>
-        </div>
-      </div>
-      <div class="Question-container Question-last-border">
-        <div class="Question-container-left">
-          <div class="Question-container-inner">
-            <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
-            <p class="Question-text">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why it's crucial that as women.</p>
-          </div>
-        </div>
-        <div class="Question-container-right">
-          <div class="Question-container-inner">
-            <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
-            <p class="Question-text">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why it's crucial that as women.</p>
-          </div>
-        </div>
-      </div>
-  </div>
-  </section>
-
-  <section class="Section-latest-blog">
-    <div class="Pricing-container">
-      <div class="Pricing-title">
-        <h1>Latest Blog Posts</h1>
-      </div>
-      <div class="Pricing-packages">
-        <div class="Pricing-padding">
-          <div class="Pricing-background">
-            <div class="Latest-blog-image-container">
-              <img class="Latest-blog-image" src="/public/carnage.jpeg" alt="">
+    <section class="Section-gallery">
+      <div class="Gallery-container">
+        <h2>Marvel Gallery</h2>
+        <div class="Gallery-image-split">
+          <div class="Gallery-image-left">
+            <div class="Gallery-left-pics">
+              <img src="/public/helicarrier.jpeg" alt="Shield helicarrier" />
+              <img src="/public/spiderman.jpeg" alt="SpiderMan" />
             </div>
-            <div class="Latest-blog-text">
-              <a href="">November 22's New Marvel Comics</a>
-              <p>Behold the bloodiest reunion of the year in this week's Marvel Comics!
-                Every symbiote needs a host. And for Carnage, there has only ever been one host who has made it feel whole, and it's time for a reunion… Don't miss Torunn Grønbekk and Pere Pérez's CARNAGE (2023) #1, 
-                the shocking and unexpected start to the next chapter of Carnage's story—one which lays the groundwork for the next Venom epic!
-                Carnage reconnects with Cletus Kasady in CARNAGE (2023) #1, on sale this Wednesday, November 20!
-              </p>
-              <div class="Latest-blog-date">
-                <a href=""><i class="fa-regular fa-calendar-days"></i> 23rd Nov</a>
-                <a href=""><i class="fa-solid fa-heart"></i>16</a>
-                <a href=""><i class="fa-solid fa-comments"></i>06</a>
+            <img src="/public/marvelLogo.webp" alt="Gold Marvel Logo" />
+          </div>
+          <div class="Gallery-image-right">
+            <div>
+              <img src="/public/avengers-portrait.jpeg" alt="Avengers" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Pricing">
+      <div class="Pricing-container mx-auto">
+        <div class="Pricing-title">
+          <h2>Pricing Plans</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="Pricing-padding">
+            <div class="Pricing-background">
+              <h3 class="Pricing-package-title">Silver Package</h3>
+              <span class="Pricing-price">$45.00</span>
+              <div>
+                <ul class="Pricing-list">
+                  <li class="Pricing-list-item">Birthday Gift</li>
+                  <li class="Pricing-list-item">Discount Tuesdays</li>
+                  <li class="Pricing-list-item">Exclusive offers & Screenings</li>
+                </ul>
+              </div>
+              <div class="Pricing-button">
+                <a class="Pricing-tag" href="#"> Buy Now</a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="Pricing-padding">
-          <div class="Pricing-background">
-            <div class="Latest-blog-image-container">
-              <img class="Latest-blog-image" src="/public/what-if-season-2.webp" alt="">
-            </div>
-            <div class="Latest-blog-text">
-              <a href="">Coming soon, Season 2 WHAT IF...?</a>
-              <p>Behold the bloodiest reunion of the year in this week's Marvel Comics!
-                Every symbiote needs a host. And for Carnage, there has only ever been one host who has made it feel whole, and it's time for a reunion… Don't miss Torunn Grønbekk and Pere Pérez's CARNAGE (2023) #1, 
-                the shocking and unexpected start to the next chapter of Carnage's story—one which lays the groundwork for the next Venom epic!
-                Carnage reconnects with Cletus Kasady in CARNAGE (2023) #1, on sale this Wednesday, November 20!
-              </p>
-              <div class="Latest-blog-date">
-                <a href=""><i class="fa-regular fa-calendar-days"></i> 23rd Nov</a>
-                <a href=""><i class="fa-solid fa-heart"></i>16</a>
-                <a href=""><i class="fa-solid fa-comments"></i>06</a>
+          <div class="Pricing-padding">
+            <div class="Pricing-background">
+              <h3 class="Pricing-package-title">Silver Package</h3>
+              <span class="Pricing-price">$45.00</span>
+              <div>
+                <ul class="Pricing-list">
+                  <li class="Pricing-list-item">No Expiration on Points</li>
+                  <li class="Pricing-list-item">Free Upgrades on snacks & drinks at Disney parks</li>
+                  <li class="Pricing-list-item">Priority Lanes</li>
+                </ul>
+              </div>
+              <div class="Pricing-button">
+                <a class="Pricing-tag" href="#"> Buy Now</a>
               </div>
             </div>
           </div>
-        </div>
-        <div class="Pricing-padding">
-          <div class="Pricing-background">
-            <div class="Latest-blog-image-container">
-              <img class="Latest-blog-image" src="/public/loki.jpeg" alt="">
-            </div>
-            <div class="Latest-blog-text">
-              <a href="">Loki Season 2</a>
-              <p>Behold the bloodiest reunion of the year in this week's Marvel Comics!
-                Every symbiote needs a host. And for Carnage, there has only ever been one host who has made it feel whole, and it's time for a reunion… Don't miss Torunn Grønbekk and Pere Pérez's CARNAGE (2023) #1, 
-                the shocking and unexpected start to the next chapter of Carnage's story—one which lays the groundwork for the next Venom epic!
-                Carnage reconnects with Cletus Kasady in CARNAGE (2023) #1, on sale this Wednesday, November 20!
-              </p>
-              <div class="Latest-blog-date">
-                <a href=""><i class="fa-regular fa-calendar-days"></i> 23rd Nov</a>
-                <a href=""><i class="fa-solid fa-heart"></i>16</a>
-                <a href=""><i class="fa-solid fa-comments"></i>06</a>
+          <div class="Pricing-padding">
+            <div class="Pricing-background">
+              <h3 class="Pricing-package-title">Silver Package</h3>
+              <span class="Pricing-price">$45.00</span>
+              <div>
+                <ul class="Pricing-list">
+                  <li class="Pricing-list-item">Hotel access</li>
+                  <li class="Pricing-list-item">Discount on all events</li>
+                  <li class="Pricing-list-item">Free Merch on certain items</li>
+                </ul>
+              </div>
+              <div class="Pricing-button">
+                <a class="Pricing-tag" href="#">Buy Now </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="Subscribe-container">
-    <div>
-      <p>Subscribe To Our Newsletter</p>
-      <input type="email" placeholder="Enter email address" />
-    </div>
-  </section>
-  <script src="./index.js"></script>
-  <script src="https://kit.fontawesome.com/2e6341f303.js" crossorigin="anonymous"></script>
-</body>
+    <section class="Question">
+      <div class="Question-center mx-auto">
+        <h2 class="Question-main-title">Frequently Asked Questions</h2>
+        <div class="Question-container">
+          <div class="Question-container-left">
+            <div class="Question-container-inner">
+              <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
+              <p class="Question-text">
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                especially in the workplace. That's why it's crucial that as women.
+              </p>
+            </div>
+          </div>
+          <div class="Question-container-right">
+            <div class="Question-container-inner">
+              <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
+              <p class="Question-text">
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                especially in the workplace. That's why it's crucial that as women.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="Question-container">
+          <div class="Question-container-left">
+            <div class="Question-container-inner">
+              <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
+              <p class="Question-text">
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                especially in the workplace. That's why it's crucial that as women.
+              </p>
+            </div>
+          </div>
+          <div class="Question-container-right">
+            <div class="Question-container-inner">
+              <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
+              <p class="Question-text">
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                especially in the workplace. That's why it's crucial that as women.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="Question-container border-bottom-0">
+          <div class="Question-container-left">
+            <div class="Question-container-inner">
+              <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
+              <p class="Question-text">
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                especially in the workplace. That's why it's crucial that as women.
+              </p>
+            </div>
+          </div>
+          <div class="Question-container-right">
+            <div class="Question-container-inner">
+              <h3 class="Question-sub-titles">We Believe that Interior beauty Lasts Long</h3>
+              <p class="Question-text">
+                inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+                especially in the workplace. That's why it's crucial that as women.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Section-latest-blog">
+      <div class="Pricing-container mx-auto">
+        <div class="Pricing-title">
+          <h2>Latest Blog Posts</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="Pricing-padding">
+            <div class="Pricing-background">
+              <div class="Latest-blog-image-container">
+                <img class="Latest-blog-image" src="/public/carnage.jpeg" alt="Carnage comic cover" />
+              </div>
+              <div class="Latest-blog-text">
+                <a href="">November 22's New Marvel Comics</a>
+                <p>
+                  Behold the bloodiest reunion of the year in this week's Marvel Comics! Every symbiote needs a host.
+                  And for Carnage, there has only ever been one host who has made it feel whole, and it's time for a
+                  reunion… Don't miss Torunn Grønbekk and Pere Pérez's CARNAGE (2023) #1, the shocking and unexpected
+                  start to the next chapter of Carnage's story—one which lays the groundwork for the next Venom epic!
+                  Carnage reconnects with Cletus Kasady in CARNAGE (2023) #1, on sale this Wednesday, November 20!
+                </p>
+                <div class="Latest-blog-date">
+                  <a href=""><i class="fa-regular fa-calendar-days"></i> 23rd Nov</a>
+                  <a href=""><i class="fa-solid fa-heart"></i>16</a>
+                  <a href=""><i class="fa-solid fa-comments"></i>06</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Pricing-padding">
+            <div class="Pricing-background">
+              <div class="Latest-blog-image-container">
+                <img class="Latest-blog-image" src="/public/what-if-season-2.webp" alt="what if season 2" />
+              </div>
+              <div class="Latest-blog-text">
+                <a href="">Coming soon, Season 2 WHAT IF...?</a>
+                <p>
+                  Behold the bloodiest reunion of the year in this week's Marvel Comics! Every symbiote needs a host.
+                  And for Carnage, there has only ever been one host who has made it feel whole, and it's time for a
+                  reunion… Don't miss Torunn Grønbekk and Pere Pérez's CARNAGE (2023) #1, the shocking and unexpected
+                  start to the next chapter of Carnage's story—one which lays the groundwork for the next Venom epic!
+                  Carnage reconnects with Cletus Kasady in CARNAGE (2023) #1, on sale this Wednesday, November 20!
+                </p>
+                <div class="Latest-blog-date">
+                  <a href=""><i class="fa-regular fa-calendar-days"></i> 23rd Nov</a>
+                  <a href=""><i class="fa-solid fa-heart"></i>16</a>
+                  <a href=""><i class="fa-solid fa-comments"></i>06</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Pricing-padding">
+            <div class="Pricing-background">
+              <div class="Latest-blog-image-container">
+                <img class="Latest-blog-image" src="/public/loki.jpeg" alt="loki season 2 image" />
+              </div>
+              <div class="Latest-blog-text">
+                <a href="">Loki Season 2</a>
+                <p>
+                  Behold the bloodiest reunion of the year in this week's Marvel Comics! Every symbiote needs a host.
+                  And for Carnage, there has only ever been one host who has made it feel whole, and it's time for a
+                  reunion… Don't miss Torunn Grønbekk and Pere Pérez's CARNAGE (2023) #1, the shocking and unexpected
+                  start to the next chapter of Carnage's story—one which lays the groundwork for the next Venom epic!
+                  Carnage reconnects with Cletus Kasady in CARNAGE (2023) #1, on sale this Wednesday, November 20!
+                </p>
+                <div class="Latest-blog-date">
+                  <a href=""><i class="fa-regular fa-calendar-days"></i> 23rd Nov</a>
+                  <a href=""><i class="fa-solid fa-heart"></i>16</a>
+                  <a href=""><i class="fa-solid fa-comments"></i>06</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Subscribe-container">
+      <div>
+        <p>Subscribe To Our Newsletter</p>
+        <input type="email" placeholder="Enter email address" />
+      </div>
+    </section>
+    <script src="./src/js/header.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/2e6341f303.js" crossorigin="anonymous"></script>
+  </body>
 </html>
