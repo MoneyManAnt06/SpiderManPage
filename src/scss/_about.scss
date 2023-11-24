@@ -24,14 +24,14 @@
 
         &-slide {
             flex: 0 0 100%;
-            padding-right: 64px;
+            padding-right: 16px;
             padding-top: 85px;
             text-align: center;
         }
 
         &-paragraph {
             color: $white-color;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 600;
             margin-left: 60px;
             margin-right: 60px;
@@ -154,11 +154,11 @@
         &-input {
             border: transparent;
             border-radius: 50px;
-            height: 22px;
+            height: 49px;
             line-height: inherit;
             outline: none;
             padding: 13px 30px;
-            width: 50%;
+            width: 58%;
         }
 
         &-button {

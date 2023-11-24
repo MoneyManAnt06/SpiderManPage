@@ -9332,12 +9332,12 @@ p {
     display: flex; }
   .About-testimonials-slide {
     flex: 0 0 100%;
-    padding-right: 64px;
+    padding-right: 16px;
     padding-top: 85px;
     text-align: center; }
   .About-testimonials-paragraph {
     color: #fdfefe;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     margin-left: 60px;
     margin-right: 60px; }
@@ -9428,11 +9428,11 @@ p {
   .About-subscribe-input {
     border: transparent;
     border-radius: 50px;
-    height: 22px;
+    height: 49px;
     line-height: inherit;
     outline: none;
     padding: 13px 30px;
-    width: 50%; }
+    width: 58%; }
   .About-subscribe-button {
     background-color: #85929e;
     border: transparent;
@@ -9732,34 +9732,34 @@ p {
     flex-wrap: nowrap;
     justify-content: center;
     width: 50%; }
-    .Games-tab-box-inside {
-      align-items: flex-start;
-      display: flex;
-      flex-direction: column;
-      height: 420px;
-      justify-content: space-between;
-      width: 420px; }
-    .Games-tab-box-text {
-      color: #e9dfb7;
-      font-family: "Permanent Marker", cursive;
-      font-size: 33px;
-      text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
-    .Games-tab-box-paragraph {
-      color: #fcf3cf;
-      font-size: 20px; }
-    .Games-tab-box-button {
-      background: -webkit-linear-gradient(90deg, black 0%, #943126 100%);
-      background: -moz-linear-gradient(90deg, black 0%, #943126 100%);
-      background: -o-linear-gradient(90deg, black 0%, #943126 100%);
-      background: linear-gradient(90deg, black 0%, #943126 100%);
-      color: #fdfefe;
-      height: 53px;
-      width: 154px; }
-      .Games-tab-box-button:hover {
-        background: -webkit-linear-gradient(90deg, #943126 0%, black 100%);
-        background: -moz-linear-gradient(90deg, #943126 0%, black 100%);
-        background: -o-linear-gradient(90deg, #943126 0%, black 100%);
-        background: linear-gradient(90deg, #943126 0%, black 100%); }
+  .Games-tab-inside {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    justify-content: space-between;
+    width: 420px; }
+  .Games-tab-text {
+    color: #e9dfb7;
+    font-family: "Permanent Marker", cursive;
+    font-size: 33px;
+    text-shadow: 3px 3px 0 #c0392b, -1px -1px 0 #884ea0, 1px -1px 0 #fdfefe, -1px 1px 0 #4a235a, 1px 1px 0 #eaeded; }
+  .Games-tab-paragraph {
+    color: #fcf3cf;
+    font-size: 20px; }
+  .Games-tab-button {
+    background: -webkit-linear-gradient(90deg, black 0%, #943126 100%);
+    background: -moz-linear-gradient(90deg, black 0%, #943126 100%);
+    background: -o-linear-gradient(90deg, black 0%, #943126 100%);
+    background: linear-gradient(90deg, black 0%, #943126 100%);
+    color: #fdfefe;
+    height: 53px;
+    width: 154px; }
+    .Games-tab-button:hover {
+      background: -webkit-linear-gradient(90deg, #943126 0%, black 100%);
+      background: -moz-linear-gradient(90deg, #943126 0%, black 100%);
+      background: -o-linear-gradient(90deg, #943126 0%, black 100%);
+      background: linear-gradient(90deg, #943126 0%, black 100%); }
   .Games-tab-images {
     width: 50%; }
     .Games-tab-images-size {
