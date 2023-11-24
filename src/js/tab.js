@@ -1,4 +1,4 @@
-function openTab(evt, tabName) {
+function openTab(event, tabName) {
   let i, tabcontent, tablinks;
 
   tabcontent = document.getElementsByClassName("Tab-content");
@@ -12,7 +12,7 @@ function openTab(evt, tabName) {
   }
 
   document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
+  event.currentTarget.className += " active";
 }
 
 document.getElementById("defaultOpen").click();

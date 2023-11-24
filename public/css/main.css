@@ -9952,7 +9952,7 @@ p {
 .Dropdown {
   display: inline-block;
   position: relative; }
-  .Dropdown-dropbtn {
+  .Dropdown-button {
     border: none;
     cursor: pointer;
     font-size: 16px;
