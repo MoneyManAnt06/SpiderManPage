@@ -8,9 +8,9 @@
 
     &-box {
         border: $button-dark 5px double;
-        height: 416px;
+        height: 427px;
         margin-top: 120px;
-        width: 1109px;
+        width: 1120px;
     }
 
     &-info {
@@ -25,31 +25,32 @@
             height: 214px;
             justify-content: space-around;
             width: 286px;
+        }
 
-            &-box {
-                display: flex;
-            }
+        &-item {
+            display: flex;
+            flex-direction: column;
+        }
 
-            &-item {
-                display: flex;
-                flex-direction: column;
-            }
+        &-box {
+            display: flex;
         }
 
         &-icon {
             height: 50px;
             width: 50px;
+        }
 
-            &-custom {
-                color: $cozy-green-lite-darkest;
-                font-size: 20px;
-                font-weight: 600;
-                line-height: 24px;
-            }
+        &-custom {
+            color: $cozy-green-lite-darkest;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
         }
 
         &-text {
             color: $black-color;
+            font-size: 16px;
         }
 
         &-inputs {
@@ -57,88 +58,86 @@
             width: 853px;
         }
 
-        &-form {
-            &-box {
-                display: flex;
-            }
+        &-left {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 145px;
+            justify-content: space-evenly;
+            width: 427px;
+        }
 
-            &-left {
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                height: 145px;
-                justify-content: space-evenly;
-                width: 427px;
-            }
+        &-right {
+            align-items: center;
+            display: flex;
+            height: 145px;
+            justify-content: center;
+            width: 430px;
+        }
 
-            &-right {
-                align-items: center;
-                display: flex;
-                height: 145px;
-                justify-content: center;
-                width: 430px;
-            }
+        &-input {
+            background-clip: padding-box;
+            background-color: $home-white;
+            border: 1px solid $cozy-green-lite;
+            border-radius: 0.25rem;
+            color: $cozy-green-lite-darkest;
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            height: 32px;
+            line-height: 1.5;
+            padding: 0.375rem 0.75rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            width: 349px;
+        }
 
-            &-input {
-                background-clip: padding-box;
-                background-color: $home-white;
-                border: 1px solid $cozy-green-lite;
-                border-radius: 0.25rem;
-                color: $cozy-green-lite-darkest;
-                font-family: "Roboto", sans-serif;
-                font-size: 14px;
-                height: 21px;
-                line-height: 1.5;
-                padding: 0.375rem 0.75rem;
-                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-                width: 349px;
-            }
+        &-message {
+            border: 1px solid $cozy-green;
+            border-radius: 0.25rem;
+            color: $cozy-green-lite-darkest;
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            height: 123px;
+            line-height: 1.5;
+            max-height: 123px;
+            max-width: 376px;
+            min-height: 100px;
+            min-width: 300px;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            width: 376px;
+        }
 
-            &-message {
-                border: 1px solid $cozy-green;
-                border-radius: 0.25rem;
-                color: $cozy-green-lite-darkest;
-                font-family: "Roboto", sans-serif;
-                font-size: 14px;
-                height: 123px;
-                line-height: 1.5;
-                max-height: 123px;
-                max-width: 376px;
-                min-height: 100px;
-                min-width: 300px;
-                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-                width: 376px;
-            }
+        &-footer {
+            align-items: center;
+            display: flex;
+            height: 69px;
+            justify-content: flex-end;
+            margin-right: 20px;
+            width: 100%;
+        }
 
-            &-footer {
-                align-items: center;
-                display: flex;
-                height: 69px;
-                justify-content: flex-end;
-                margin-right: 20px;
-                width: 100%;
-            }
+        &-button {
+            align-items: center;
+            background-color: $button-dark;
+            border: none;
+            border-radius: 7px;
+            color: $yellow-color;
+            display: flex;
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            font-weight: 800;
+            height: 47px;
+            justify-content: center;
+            line-height: 50px;
+            margin-right: 25px;
+            width: 169px;
+        }
 
-            &-button {
-                align-items: center;
-                background-color: $button-dark;
-                border: none;
-                border-radius: 7px;
-                color: $yellow-color;
-                display: flex;
-                font-family: "Roboto", sans-serif;
-                font-size: 14px;
-                font-weight: 800;
-                height: 47px;
-                justify-content: center;
-                line-height: 50px;
-                margin-right: 25px;
-                width: 169px;
-            }
+        &-button:hover {
+            background-color: $cozy-green-lite;
+        }
 
-            &-button:hover {
-                background-color: $cozy-green-lite;
-            }
+        &-box {
+            display: flex;
         }
     }
 }
