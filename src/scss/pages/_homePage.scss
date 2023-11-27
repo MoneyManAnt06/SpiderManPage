@@ -53,8 +53,27 @@
     }
   }
 
-  &-left-pics {
-    display: flex;
+  &-left {
+    &-images {
+      width: 350px;
+      height: 274px;
+      margin-bottom: 30px;
+    }
+
+    &-padding {
+      padding: 0 15px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-right-images {
+    width: 350px;
+    height: 574px;
+  }
+
+  &-bottom-image {
+    height: 274px;
   }
 }
 
