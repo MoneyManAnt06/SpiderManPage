@@ -10,12 +10,12 @@
 
   &-container {
     display: flex;
-    border-bottom: 2px dotted grey;
+    border-bottom: 2px dotted $grey;
 
     &-left {
       max-width: 50%;
       width: 100%;
-      border-right: 2px dotted grey;
+      border-right: 2px dotted $grey;
     }
 
     &-right {

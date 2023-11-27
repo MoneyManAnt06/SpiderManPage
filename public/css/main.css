@@ -9738,7 +9738,7 @@ p {
     border: 2px solid;
     border-image: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
     border-image-slice: 1;
-    color: #fff;
+    color: white;
     display: inline-block;
     overflow: hidden;
     padding: 0 60px;
@@ -9756,11 +9756,11 @@ p {
 
 .Question-container {
   display: flex;
-  border-bottom: 2px dotted grey; }
+  border-bottom: 2px dotted gray 0%, 50%; }
   .Question-container-left {
     max-width: 50%;
     width: 100%;
-    border-right: 2px dotted grey; }
+    border-right: 2px dotted gray 0%, 50%; }
   .Question-container-right {
     max-width: 50%;
     width: 100%;

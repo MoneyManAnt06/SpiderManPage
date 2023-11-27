@@ -21,7 +21,7 @@
   &-slogan {
     width: 50%;
     display: flex;
-    color: white;
+    color: $home-white;
     font-family: "Marvel", sans-serif;
     font-weight: 700;
     align-items: center;
@@ -29,7 +29,7 @@
   }
 
   &-text {
-    text-shadow: 3px 2px red;
+    text-shadow: 3px 2px $red;
     font-size: 100px;
     text-align: center;
   }
