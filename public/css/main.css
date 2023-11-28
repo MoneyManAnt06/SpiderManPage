@@ -9820,7 +9820,8 @@ p {
   .Footer-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-around; }
+    justify-content: space-around;
+    width: 700px; }
     .Footer-left-list {
       align-items: center;
       border-bottom: #85929e 2px solid;
