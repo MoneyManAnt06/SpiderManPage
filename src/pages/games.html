@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <title>Games</title>
+</head>
+
+<body>
+    <div id="common-header"></div>
+    <section class="Banner">
+        <div class="Banner-sides Banner-first">
+
+        </div>
+        <div class="Banner-sides Banner-second">
+
+        </div>
+    </section>
+
+    <div class="Banner-food">
+        <h1 class="Banner-food-text">With Great Power Comes Great Responsibility</h1>
+    </div>
+
+    <section class="Games-gallery">
+        <div class="Games-gallery-container">
+            <div class="Games-gallery-title">
+                <h2>Upcoming Games</h2>
+            </div>
+            <div class="Games-gallery-box">
+                <div class="Games-gallery-card">
+                    <img class="Games-gallery-image" src="/public/card1.webp" alt="Games-img">
+                    <div class="Games-gallery-text">
+                        <a class="Games-gallery-anchor" target="_blank" href="#">New XBox Games</a>
+                    </div>
+                </div>
+                <div class="Games-gallery-card">
+                    <img class="Games-gallery-image" src="/public/card2.webp" alt="Games-img">
+                    <div class="Games-gallery-text">
+                        <a class="Games-gallery-anchor" href="#">New XBox Games</a>
+                    </div>
+                </div>
+                <div class="Games-gallery-card">
+                    <img class="Games-gallery-image" src="/public/card3.webp" alt="Games-img">
+                    <div class="Games-gallery-text">
+                        <a class="Games-gallery-anchor" href="#">New XBox Games</a>
+                    </div>
+                </div>
+                <div class="Games-gallery-card">
+                    <img class="Games-gallery-image" src="/public/card4.webp" alt="Games-img">
+                    <div class="Games-gallery-text">
+                        <a class="Games-gallery-anchor" href="#">New XBox Games</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Games-tab">
+        <div class="Games-tab-container">
+            <div class="Tab">
+                <button class="Button-tab Tab-links" onclick="openTab(event, 'tab1')" id="defaultOpen">Iconic
+                    Superheroes</button>
+                <button class="Button-tab Tab-links" onclick="openTab(event, 'tab2')">Marvel's First
+                    Mutant</button>
+                <button class="Button-tab Tab-links" onclick="openTab(event, 'tab3')">Best Superpower </button>
+            </div>
+            <div>
+                <div id="tab1" class="Tab-content">
+                    <div class="d-flex">
+                        <div class="w-50">
+                            <img class="Games-tab-size" src="/public/box3.jpg" alt="Games-img">
+                        </div>
+                        <div class="Games-tab-box">
+                            <div class="Games-tab-inside">
+                                <h3 class="Games-tab-text">Did you know this..?</h3>
+                                <p class="Games-tab-paragraph">Lee brought to life some of Marvel's most iconic
+                                    superheroes: Hulk, Spiderman, Iron
+                                    Man and the X-Men. Spider-Man was initially rejected by Goodman, as he said that
+                                    audiences didn't like spiders and that seeing a guy climbing walls was going to be
+                                    too scary. What I didn't know was how much scarier it would be to see Tobey Maguire
+                                    playing him on film.</p>
+                                <button class="Games-tab-button">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab2" class="Tab-content">
+                    <div class="d-flex">
+                        <div class="w-50">
+                            <img class="Games-tab-size" src="/public/box2.webp" alt="Games-img">
+                        </div>
+                        <div class="Games-tab-box">
+                            <div class="Games-tab-inside">
+                                <h3 class="Games-tab-text">Did you know this..?</h3>
+                                <p class="Games-tab-paragraph">Timely Comics' first publication was called (oh,
+                                    coincidence) Marvel Comics #1 and
+                                    starred Human Torch, The Angel, Namor the Sub-Mariner (Marvel's first mutant), and
+                                    Masked Raider. The first edition sold 80,000 copies, prompting Goodman to release a
+                                    second edition that sold 800,000 copies. Who will get those numbers now.</p>
+                                <button class="Games-tab-button">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab3" class="Tab-content">
+                    <div class="d-flex">
+                        <div class="w-50">
+                            <img class="Games-tab-size" src="/public/box1.webp" alt="Games-img">
+                        </div>
+                        <div class="Games-tab-box">
+                            <div class="Games-tab-inside">
+                                <h3 class="Games-tab-text">Did you know this..?</h3>
+                                <p class="Games-tab-paragraph">The superhero with the best superpower in the entire
+                                    Marvel universe is Eye-Scream. He is a mutant villain whose ability is to transform
+                                    into ice cream of any flavor. Who would want to fly or have enormous strength when
+                                    you can turn into white chocolate ice cream?</p>
+                                <button class="Games-tab-button">LEARN MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="About-review">
+        <div class="About-review-container">
+            <div class="About-review-head">
+                <h2 class="About-review-head-text">Did you know this about comics...?</h2>
+            </div>
+            <div class="About-border-down About-review-row">
+                <div class="About-border-right About-review-box">
+                    <h3 class="About-review-text">to the Velislav Bible</h3>
+                    <p class="About-review-paragraph">This 14th century manuscript is considered the first
+                        comic in history and includes 747
+                        illustrations showing the Old Testament. This work was carried out so that the population with a
+                        large number of illiterates could understand the Bible through drawings.</p>
+                </div>
+                <div class="About-review-box">
+                    <h3 class="About-review-text">Hulk's color</h3>
+                    <p class="About-review-paragraph">At first, Hulk was going to be gray but due to printing
+                        color problems it was changed to green.
+                        The precision of the printing presses was not so great at that time</p>
+                </div>
+            </div>
+            <div class="About-review-row">
+                <div class="About-border-right About-review-box">
+                    <h3 class="About-review-text">Mario Puzo, I try to write comics</h3>
+                    <p class="About-review-paragraph">The Godfather writer tried several times to write comics
+                        for Marvel, but was rejected due to lack
+                        of creativity. Who knows if he had continued what types of comics he would have released</p>
+                </div>
+                <div class="About-review-box">
+                    <h3 class="About-review-text">Weak points</h3>
+                    <p class="About-review-paragraph">Another curiosity that many have not stopped at is that
+                        most superheroes, all in the case of
+                        Marvel, have a weak point that exposes them and leaves them vulnerable to enemies.</p>
+                </div>
+            </div>
+            <div class="About-review-row About-border-up">
+                <div class="About-border-right About-review-box">
+                    <h3 class="About-review-text">Comic and Hitler</h3>
+                    <p class="About-review-paragraph">Some of the most famous comics in history were part of
+                        North American propaganda against the
+                        advance of Nazism, and good proof of this is that, in his first appearance, Captain America is
+                        hitting none other than Adolf in the face. Hitler.</p>
+                </div>
+                <div class="About-review-box">
+                    <h3 class="About-review-text">Superhero skills</h3>
+                    <p class="About-review-paragraph">His father and creator of other classics such as
+                        Spiderman, Ironman, Hulk or the X-Men, the great
+                        Stan Lee, hosted a reality show in the mid-2000s, whose objective was none other than to find
+                        people with talents or abilities typical of The Superheroes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="About-subscribe">
+        <div class="About-subscribe-box">
+
+            <div class="About-subscribe-title">
+                <h2 class="About-subscribe-text">WRITE US AT SMBS SOLUTIONS</h2>
+                <p>We are your best friend designing the algorithm of your
+                    business.
+                </p>
+            </div>
+            <div class="About-subscribe-email">
+                <input class="About-subscribe-input" name="EMAIL" placeholder="Your email address"
+                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'" required=""
+                    type="email">
+                <button type="button" class="About-subscribe-button">Subscribe</button>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="common-footer"></div>
+
+    <script src="/src/js/header.js"></script>
+    <script src="https://kit.fontawesome.com/2e6341f303.js" crossorigin="anonymous"></script>
+    <script src="/src/js/footer.js"></script>
+    <script src="/src/js/tab.js"></script>
+</body>
+
+</html>

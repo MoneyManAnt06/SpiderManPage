@@ -1,0 +1,19 @@
+.Tab {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    &-content {
+        border: 2px solid $yellow-color;
+        border-top: none;
+        display: none;
+        padding: 6px 12px;
+    }
+
+    &-links {
+        color: $yellow-color;
+        font-family: $food-font;
+        font-size: 17px;
+        text-shadow: 3px 3px 0 $black-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
+    }
+}

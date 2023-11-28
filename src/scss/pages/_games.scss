@@ -1,0 +1,141 @@
+.Games {
+    &-gallery {
+        align-items: center;
+        display: flex;
+        height: 723px;
+        justify-content: center;
+        width: 100%;
+
+        &-container {
+            height: 530px;
+            width: 1140px;
+        }
+
+        &-box {
+            display: flex;
+            height: 385px;
+        }
+
+        &-title {
+            color: $button-color;
+            display: flex;
+            font-size: 25px;
+            height: 144px;
+            justify-content: center;
+            width: 100%;
+        }
+
+        &-card {
+            display: flex;
+            height: 386px;
+            justify-content: center;
+            position: relative;
+            width: 285px;
+        }
+
+        &-image {
+            border-radius: 125px;
+            height: 340px;
+            width: 253px;
+        }
+
+        &-text {
+            align-items: center;
+            background: $opacity;
+            display: flex;
+            height: 61px;
+            justify-content: center;
+            opacity: 4;
+            position: absolute;
+            text-align: center;
+            top: 45%;
+            transform: translateY(-50%);
+            -moz-transition: all 0.4s ease 0s;
+            -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+            width: 253px;
+        }
+
+        &-text:hover {
+            background: $opacity-lite;
+        }
+
+        &-anchor {
+            color: $white-color;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+
+    &-tab {
+        align-items: center;
+        background-image: url("/public/img-cover.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        height: 798px;
+        justify-content: center;
+        width: 100%;
+
+        &-container {
+            width: 1110px;
+        }
+
+        &-box {
+            align-items: center;
+            background-color: $cozy-green-lite;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            width: 50%;
+        }
+
+        &-inside {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            height: 420px;
+            justify-content: space-between;
+            width: 420px;
+        }
+
+        &-text {
+            color: $yellow-color;
+            font-family: $food-font;
+            font-size: 33px;
+            text-shadow: 3px 3px 0 $red-color, -1px -1px 0 $button-color, 1px -1px 0 $white-color, -1px 1px 0 $button-dark, 1px 1px 0 $cozy-green;
+        }
+
+        &-paragraph {
+            color: $cream-color;
+            font-size: 20px;
+        }
+
+        &-button {
+            background: -webkit-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            background: -moz-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            background: -o-linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            color: $white-color;
+            height: 53px;
+            width: 154px;
+
+            &:hover {
+                background: -webkit-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                background: -moz-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                background: -o-linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+                background: linear-gradient(90deg, $red-dark 0%, $black-color 100%);
+            }
+        }
+
+        &-images {
+            width: 50%;
+        }
+
+        &-size {
+            height: 546px;
+            width: 541px;
+        }
+    }
+}
