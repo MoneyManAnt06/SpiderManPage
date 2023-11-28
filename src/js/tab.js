@@ -1,12 +1,12 @@
 function openTab(event, tabName) {
-  let i, tabcontent, tablinks;
+  let i;
+  const tablinks = document.getElementsByClassName("Tab-links");
+  const tabcontent = document.getElementsByClassName("Tab-content");
 
-  tabcontent = document.getElementsByClassName("Tab-content");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
-  tablinks = document.getElementsByClassName("Tab-links");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
