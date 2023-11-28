@@ -2,31 +2,28 @@
     align-items: center;
     background-color: $black-color;
     display: flex;
-    height: 540px;
     justify-content: center;
     width: 100%;
+    flex-direction: column;
+    padding: 25px 0;
 
     &-box {
         display: flex;
         flex-wrap: nowrap;
-        height: 74%;
-        width: 90%;
+        width: 100%;
+        justify-content: space-around;
     }
 
     &-right {
         display: flex;
-        height: 100%;
         justify-content: center;
-        width: 50%;
 
         &-box {
             align-content: center;
             align-items: center;
-            display: flex;
-            flex-direction: column-reverse;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: auto auto auto;
             gap: 10px;
-            height: 100%;
             justify-content: center;
             width: 100%;
         }
@@ -41,9 +38,7 @@
     &-left {
         display: flex;
         flex-direction: column;
-        height: 100%;
         justify-content: space-around;
-        width: 50%;
 
         &-list {
             align-items: center;
@@ -76,7 +71,7 @@
         &-privacy {
             color: $white-color;
             font-size: 18px;
-            height: 72px;
+            margin-top: 25px;
         }
 
         &-icons {
