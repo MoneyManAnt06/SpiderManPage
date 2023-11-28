@@ -9516,11 +9516,6 @@ p {
       height: 214px;
       justify-content: space-around;
       width: 286px; }
-    .Map-info-item {
-      display: flex;
-      flex-direction: column; }
-    .Map-info-box {
-      display: flex; }
     .Map-info-icon {
       height: 50px;
       width: 50px; }
@@ -9599,8 +9594,6 @@ p {
       width: 169px; }
     .Map-info-button:hover {
       background-color: #85929e; }
-    .Map-info-box {
-      display: flex; }
 
 .Pricing-plans {
   align-items: center;
@@ -9836,6 +9829,7 @@ p {
     .Footer-left-list {
       align-items: center;
       border-bottom: #85929e 2px solid;
+      border-top: #85929e 2px solid;
       display: flex;
       height: 100px;
       justify-content: space-between;
@@ -9852,6 +9846,17 @@ p {
     .Footer-left-gif {
       height: 65%;
       width: 100%; }
+    .Footer-left-privacy {
+      color: #fdfefe;
+      font-size: 18px;
+      height: 72px; }
+    .Footer-left-icons {
+      width: 23%;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 25px; }
+    .Footer-left-color {
+      color: #fdfefe; }
 
 .NavBar {
   align-items: center;

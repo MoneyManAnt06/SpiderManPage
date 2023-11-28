@@ -27,15 +27,6 @@
             width: 286px;
         }
 
-        &-item {
-            display: flex;
-            flex-direction: column;
-        }
-
-        &-box {
-            display: flex;
-        }
-
         &-icon {
             height: 50px;
             width: 50px;
@@ -134,10 +125,6 @@
 
         &-button:hover {
             background-color: $cozy-green-lite;
-        }
-
-        &-box {
-            display: flex;
         }
     }
 }
