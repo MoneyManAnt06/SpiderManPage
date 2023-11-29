@@ -34,20 +34,18 @@ const images = [
   },
 ];
 
-function getRandomInt1(max) {
-  return Math.floor(Math.random() * max);
+function getRandomInt() {
+  return Math.floor(Math.random() * images.length);
 }
-function getRandomInt2(max) {
-  return Math.floor(Math.random() * max);
-}
-const random1 = getRandomInt1(images.length);
-const random2 = getRandomInt2(images.length);
 
-const imagen1 = images[random1].img;
-const imagen2 = images[random2].img;
+const random1 = getRandomInt();
+const random2 = getRandomInt();
 
-let actual1 = document.getElementById("first-img");
-let actual2 = document.getElementById("second-img");
+const image1 = images[random1].img;
+const image2 = images[random2].img;
+
+const side1 = document.getElementById("first-img");
+const side2 = document.getElementById("second-img");
 
 const image_element1 = document.createElement("img");
 const image_element2 = document.createElement("img");
@@ -55,8 +53,8 @@ const image_element2 = document.createElement("img");
 image_element1.classList.add("Banner-sides");
 image_element2.classList.add("Banner-sides");
 
-image_element1.setAttribute("src", imagen1);
-image_element2.setAttribute("src", imagen2);
+image_element1.setAttribute("src", image1);
+image_element2.setAttribute("src", image2);
 
-actual1.appendChild(image_element1);
-actual2.appendChild(image_element2);
+side1.appendChild(image_element1);
+side2.appendChild(image_element2);
