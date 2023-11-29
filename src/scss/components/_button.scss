@@ -1,0 +1,53 @@
+.Button {
+    &-tab {
+        background-color: $red-color;
+        border: none;
+        border: 2px solid $yellow-color;
+        cursor: pointer;
+        float: left;
+        height: 52px;
+        outline: none;
+        padding: 14px 16px;
+        transition: 0.3s;
+        width: 346px;
+
+        &:hover {
+            background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            color: $yellow-color;
+        }
+
+        &.active {
+            background: linear-gradient(90deg, $black-color 0%, $red-dark 100%);
+            color: $yellow-color;
+        }
+    }
+
+    &-pricing {
+        align-items: center;
+        background-color: $black-color;
+        border-radius: 13px;
+        color: $white-color;
+        display: flex;
+        height: 49px;
+        justify-content: center;
+        text-decoration: none;
+        width: 200px;
+
+        &:hover {
+            border: 2px solid $white-color;
+        }
+    }
+
+    &-join {
+        background-color: $button-color;
+        border-radius: 21px;
+        color: $white-color;
+        font-size: 15px;
+        height: 42px;
+        width: 135px;
+
+        &:hover {
+            background-color: $button-dark;
+        }
+    }
+}

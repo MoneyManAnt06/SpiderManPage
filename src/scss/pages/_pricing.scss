@@ -1,0 +1,72 @@
+.Pricing {
+    &-plans {
+        align-items: center;
+        display: flex;
+        height: 878px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &-container {
+        width: 1110px;
+    }
+
+    &-title {
+        align-items: center;
+        color: $button-color;
+        display: flex;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        justify-content: center;
+        margin-bottom: 85px;
+        width: 1110px;
+    }
+
+    &-card {
+        align-items: center;
+        background: linear-gradient(to right, $red-dark 0%, $red-color 51%, $red-dark 100%);
+        display: flex;
+        flex-direction: column;
+        height: 495px;
+        width: 348px;
+
+        &-title {
+            align-items: center;
+            color: $white-color;
+            display: flex;
+            font-size: 18px;
+            height: 80px;
+            justify-content: center;
+            margin: 0;
+            width: 100%;
+        }
+
+        &-price {
+            align-items: center;
+            background-color: $black-color;
+            color: $white-color;
+            display: flex;
+            font-weight: bold;
+            height: 100px;
+            justify-content: center;
+            margin: 0;
+            margin-bottom: 40px;
+            font-size: 30px;
+        }
+
+        &-text {
+            color: $white-color;
+            display: flex;
+            justify-content: center;
+            padding: 14px;
+            width: 100%;
+        }
+
+        &-order {
+            display: flex;
+            justify-content: center;
+            margin-top: 36px;
+        }
+    }
+}
