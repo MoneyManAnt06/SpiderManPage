@@ -9431,7 +9431,7 @@ p {
     line-height: inherit;
     outline: none;
     padding: 13px 30px;
-    width: 60%; }
+    width: 58%; }
   .About-subscribe-button {
     background-color: #85929e;
     border: transparent;
@@ -9888,11 +9888,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 548px;
-    width: 50%; }
-  .Banner-first {
-    background-image: url(/public/img1.jpg); }
-  .Banner-second {
-    background-image: url(/public/img2.jpg); }
+    width: 100%; }
   .Banner-food {
     align-items: center;
     background-color: black;
