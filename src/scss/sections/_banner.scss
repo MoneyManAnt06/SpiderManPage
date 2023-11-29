@@ -19,13 +19,16 @@
   }
 
   &-slogan {
-    width: 50%;
+    margin-left: 180px;
+    width: 600px;
+    max-width: 50%;
     display: flex;
-    color: $home-white;
+    color: white;
     font-family: "Marvel", sans-serif;
     font-weight: 700;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
   }
 
   &-text {
