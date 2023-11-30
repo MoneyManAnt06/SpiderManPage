@@ -9317,96 +9317,12 @@ h2, .h2, h3, .h3 {
 p {
   margin: 0; }
 
-.Section-update {
-  padding: 120px 0;
-  height: 560px;
-  background-image: url(/public/avengersinfinitywar.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.Section-gallery {
-  padding: 120px 0 90px; }
-
-.Section-gaming {
-  padding: 120px 0;
-  background-image: url(/public/playstation-cover.png);
-  background-size: cover; }
-
-.Section-latest-blog {
+.Latest-blog {
   padding: 80px 0 120px; }
-
-.Gallery-container {
-  max-width: 1140px;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px; }
-
-.Gallery-image-split {
-  width: 100%;
-  height: auto;
-  display: flex; }
-
-.Gallery-image-left {
-  max-width: 760px;
-  width: 80%;
-  padding: 0 15px;
-  height: 100%; }
-
-.Gallery-image-right {
-  width: 20%;
-  height: 100%;
-  padding: 0 15px; }
-
-.Gallery-left-images {
-  width: 350px;
-  height: 274px;
-  margin-bottom: 30px; }
-
-.Gallery-left-padding {
-  padding: 0 15px;
-  width: 100%;
-  height: 100%; }
-
-.Gallery-right-images {
-  width: 350px;
-  height: 574px; }
-
-.Gallery-bottom-image {
-  height: 274px; }
-
-.Gaming-container {
-  width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
-  height: 270px; }
-
-.Gaming-review {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .Gaming-review-name {
-    color: white; }
-  .Gaming-review-text {
-    color: white;
-    text-align: center;
-    max-width: 480px; }
-
-.Gaming-rating {
-  padding: 0;
-  color: aqua;
-  list-style: none;
-  display: flex; }
-
-.Latest-blog-image {
-  width: 100%;
-  height: 100%; }
-  .Latest-blog-image-container {
+  .Latest-blog-container {
     height: 220px; }
-
-.Latest-blog-text {
-  padding: 40px 20px 50px; }
+  .Latest-blog-text {
+    padding: 40px 20px 50px; }
 
 .Map {
   align-items: center;
@@ -10037,6 +9953,42 @@ p {
 
 .Question-text {
   padding: 30px 20px 40px 0; }
+
+.Gallery {
+  padding: 120px 0 90px; }
+  .Gallery-container {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .Gallery-image-split {
+    width: 100%;
+    height: auto;
+    display: flex; }
+  .Gallery-image-left {
+    max-width: 760px;
+    width: 80%;
+    padding: 0 15px;
+    height: 100%; }
+  .Gallery-image-right {
+    width: 20%;
+    height: 100%;
+    padding: 0 15px; }
+  .Gallery-left-images {
+    width: 350px;
+    height: 274px;
+    margin-bottom: 30px; }
+  .Gallery-left-padding {
+    padding: 0 15px;
+    width: 100%;
+    height: 100%; }
+  .Gallery-right-images {
+    width: 350px;
+    height: 574px; }
+  .Gallery-bottom-image {
+    height: 274px; }
 
 .Header-nav {
   background-color: #17202a;
