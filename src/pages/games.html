@@ -190,20 +190,17 @@
 
     <section class="About-subscribe">
         <div class="About-subscribe-box">
-
             <div class="About-subscribe-title">
                 <h2 class="About-subscribe-text">WRITE US AT SMBS SOLUTIONS</h2>
                 <p>We are your best friend designing the algorithm of your
-                    business.
-                </p>
+                    business.</p>
             </div>
-            <div class="About-subscribe-email">
-                <input class="About-subscribe-input" name="EMAIL" placeholder="Your email address"
+            <form id="form" class="About-subscribe-email">
+                <input class="About-subscribe-input" name="email_to" id="email_to" placeholder="Your email address"
                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'" required=""
-                    type="email">
-                <button type="button" class="About-subscribe-button">Subscribe</button>
-            </div>
-
+                    type="text">
+                <input type="submit" id="button" value="Subscribe" class="About-subscribe-button"></input>
+            </form>
         </div>
     </section>
 
@@ -213,6 +210,11 @@
     <script src="https://kit.fontawesome.com/2e6341f303.js" crossorigin="anonymous"></script>
     <script src="/src/js/footer.js"></script>
     <script src="/src/js/tab.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('OJUKKIJam5evqAYSV')
+    </script>
+    <script src="/src/js/subscribe.js"></script>
 </body>
 
 </html>
