@@ -9871,6 +9871,8 @@ p {
     justify-content: space-evenly;
     list-style: none;
     width: 100%; }
+  .NavBar-mobile {
+    margin: 0 56px; }
 
 .Marvel-Image {
   height: 100%;
