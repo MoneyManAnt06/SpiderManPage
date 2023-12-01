@@ -1,37 +1,32 @@
-<nav class="Header-nav navbar navbar-expand-lg navbar-dark  ">
-    <button class="NavBar-mobile navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img class="Header-logo" src="../assets/img/logo.png" alt="header-logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
-
-        <ul class="Header-list">
-            <img class="Header-logo" src="../assets/img/logo.png" alt="header-logo">
-            <div class="Header-list-item">
-                <li>
-                    <a class="Header-text" href="/">HOME</a>
-                </li>
-                <li>
-                    <a class="Header-text" href="/src/pages/about.html">ABOUT</a>
-                </li>
-                <li>
-                    <a class="Header-text" href="#">GALLERY</a>
-                </li>
-                <li class="Dropdown">
-                    <a class="Header-text Dropdown-button" href="#">PAGES</a>
-                    <div class="Dropdown-content Dropdown-block">
-                        <a class="Dropdown-anchor" href="/src/pages/pricing.html">PRICING</a>
-                        <a class="Dropdown-anchor" href="/src/pages/games.html">GAMES</a>
-                    </div>
-                </li>
-                <li>
-                    <a class="Header-text" href="#">BLOG</a>
-                </li>
-                <li>
-                    <a class="Header-text" href="/src/pages/contact.html">CONTACT</a>
-                </li>
-            </div>
-            <button class="Button-join">JOIN US</button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/src/pages/about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    PAGES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/src/pages/pricing.html">PRICING</a>
+                    <a class="dropdown-item" href="/src/pages/games.html">GAMES</a>
+                </div>
+            </li>
+            <button type="button" class="btn btn-outline-secondary">JOIN US</button>
         </ul>
+
     </div>
 </nav>

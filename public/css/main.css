@@ -9431,7 +9431,7 @@ p {
     line-height: inherit;
     outline: none;
     padding: 13px 30px;
-    width: 58%; }
+    width: 59%; }
   .About-subscribe-button {
     background-color: #85929e;
     border: transparent;
@@ -9442,7 +9442,7 @@ p {
     font-size: 18px;
     height: 42px;
     position: absolute;
-    right: 362px;
+    right: 19%;
     width: 135px; }
   .About-subscribe-button:hover {
     background-color: #515e69; }
