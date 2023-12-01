@@ -1,0 +1,68 @@
+.Pricing {
+  padding: 120px 0 80px;
+
+  &-container {
+    width: 1140px;
+  }
+
+  &-padding {
+    max-width: 33.33%;
+    padding: 0 15px;
+  }
+
+  &-background {
+    color: $pricing-text;
+    background: $pricing-background;
+    margin-bottom: 40px;
+    width: 350px;
+  }
+
+  &-package-title {
+    text-align: center;
+    margin: 0;
+    padding: 35px 30px 25px;
+  }
+
+  &-price {
+    font-size: 36px;
+    padding: 30px;
+    text-align: center;
+    background: $pricing-price;
+  }
+
+  &-list {
+    list-style: none;
+    padding: 35px 50px 18px;
+
+    &-item {
+      font-weight: 400;
+      padding: 14px 0;
+      border-bottom: 1px dashed $pricing-border;
+    }
+  }
+
+  &-button {
+    max-width: 198px;
+    width: 100%;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &-tag {
+    text-decoration: none;
+    border: 2px solid;
+    border-image: $blue-gradient;
+    border-image-slice: 1;
+    color: $pricing-tag;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 60px;
+    line-height: 46px;
+
+    &:hover {
+      background: $blue-gradient;
+      color: $black-color;
+    }
+  }
+}

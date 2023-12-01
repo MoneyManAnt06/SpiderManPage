@@ -1,12 +1,18 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "variables";
 
-@import "reset";
-@import "pages/about";
+@import "base/index";
 @import "pages/homePage";
 @import "pages/contact";
 @import "pages/pricing";
 @import "pages/games";
+@import "pages/about";
+
+@import "sections/banner";
+@import "sections/aboutus";
+@import "sections/latestGames";
+@import "sections/pricingplan";
+@import "sections/frequentlyasked";
+@import "sections/gallery";
 
 @import "components/header";
 @import "components/footer";
